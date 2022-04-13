@@ -34,7 +34,7 @@
 					the Ethereum blockchain. These characters can be used in our mobile app P2W
 					game.
 				</p>
-          <br>
+        <br>
 				<PillButton @click.native="null"> ABDUTION PROTOCOL </PillButton>
 			</div>
 		</div>

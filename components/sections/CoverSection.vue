@@ -48,11 +48,10 @@
 						sm:mt-[24px]
 
 						text-center
+					text-slate-50
 						sm:text-lg
 						lg:text-2xl
 						md:max-w-3xl
-						text-slate-50
-						sm:text-left
 					">
 					Start Your Journey Now
 				</p>
