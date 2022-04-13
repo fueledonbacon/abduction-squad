@@ -1,11 +1,10 @@
 <template>  
 	<div
 					class="
-						mx-auto
-						space-y-16
-						sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0
-						lg:grid-cols-3 lg:max-w-5xl
+						flex flex-row flex-wrap justify-center
 					">
+						<!-- sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0
+						lg:grid-cols-5  -->
   		<div
          v-for="member in members"
       :key="member.key"
@@ -27,7 +26,7 @@
 								</a>
 
 								<a :href="member.in" v-if="member.in" class="text-gray-300 hover:text-gray-400">
-									                  <font-awesome-icon :icon="['fab','linkedin']" />
+									<font-awesome-icon :icon="['fab','linkedin']" />
 								</a>
 							</div>
 						</div>
