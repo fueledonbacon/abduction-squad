@@ -11,12 +11,12 @@
 			mb-[87px]
 			sm:mb-0
 		">
-		<!-- <transition name="fade" mode="out-in">		 -->
+		<transition name="fade" mode="out-in">		
 		
-		<div 
+		<div  v-if="timerCount==0"
 			class="absolute w-full h-full top-0 bg-slate-800/40 z-10 mt-[87px] sm:mt-0">
 			<div
-				data-aos="zoom-in"
+
 				class="
 					flex flex-col
 					items-center
@@ -46,11 +46,12 @@
 						w-full
 						mt-[7px]
 						sm:mt-[24px]
-						text-base text-left
+
+						text-center
 						sm:text-lg
 						lg:text-2xl
 						md:max-w-3xl
-						text-slate-50 text-center
+						text-slate-50
 						sm:text-left
 					">
 					Start Your Journey Now
@@ -69,7 +70,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- </transition> -->
+		</transition>
 		<div id="myVideo">
 			<video
 				autoplay
