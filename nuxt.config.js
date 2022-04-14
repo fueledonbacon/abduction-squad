@@ -69,6 +69,7 @@ export default {
     'aos/dist/aos.css',
 
 	],
+
 	// Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
 	plugins: [
 		'@/plugins/wallet',
@@ -119,5 +120,9 @@ export default {
 		}
 	},
 	// Build Configuration: https://go.nuxtjs.dev/config-build
-	build: {},
+	build: {
+		transpile:[
+			'web3modal-vue'
+		]
+	},
 }
