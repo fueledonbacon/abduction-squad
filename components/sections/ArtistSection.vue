@@ -1,0 +1,44 @@
+<template>
+	<section
+		class="relative block py-20 overflow-hidden leading-6 text-left bg-black text-white">
+		<div
+			class="
+				w-full
+
+				flex flex-row
+				space-y-12
+				md:px-16
+				mx-auto
+				leading-6
+				text-left
+				sm:px-12
+				xl:px-12
+			">
+			<div class="relative w-full px-4 text-center space-y-8">
+				<div class="md:w-1/2 mx-auto box-border text-sm font-semibold text-white leading-6  ">
+					<p>
+						Our primary focus is a play-to-win style game with out-of-this-world
+						prizes. Holders of our NFT will get the chance to unlock buffs for their
+						in-game character, these buffs will strengthen their odds in the play to
+						win competition.
+						<br /> <br>
+						In addition to Abduction Squad holders having a dope, high-resolution PFP,
+						holders will also receive rewards depending on the traits they acquire.
+					</p>
+  <br>
+				</div>
+  
+        <span class="text-yellow"> Intergalactic Community, Extrasensory Art.  </span>
+
+
+				<div class="overflow-hidden w-full md:w-1/2 mx-auto   ">
+					<iframe
+						src="https://www.youtube.com/embed/VtIG7YqfoAQ"
+						frameborder="0"
+						allowfullscreen
+						class="top-0 left-0 w-full border-0 aspect-video "></iframe>
+				</div>
+			</div>
+		</div>
+	</section>
+</template>

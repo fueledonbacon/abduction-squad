@@ -3,6 +3,7 @@
     <main class="w-full">
       <SectionsCoverSection/>
       <SectionsPresentationSection/>
+      <SectionsArtistSection />
       <SectionsCTAOSection/>
       <SectionsTeamSection/>
       <SectionsRoadmapSection/>
