@@ -1,8 +1,8 @@
 <template>
   <div id="app" class="min-h-screen w-full bg-black text-white">
     <main class="w-full">
-      <!-- <SectionsCoverSection/> -->
-      <SectionsHeroOpSection/>
+      <SectionsCoverSection/>
+      <SectionsPresentationSection/>
       <SectionsCTAOSection/>
       <SectionsTeamSection/>
       <SectionsRoadmapSection/>
