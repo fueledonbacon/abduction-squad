@@ -2,24 +2,25 @@
 	<button
 		type="button"
 		class="
-		    rounded-full
+		  rounded-sm
 			inline-flex
 			items-center
-			m-2
+
 			h-12
 			px-8
 			text-base
-			font-bold
+			font-medium
 			leading-6
-			text-white
+			text-black
 			transition
 			duration-150
 			ease-in-out
-			bg-indigo-400
+			bg-yellow
 			border border-transparent
-			hover:bg-indigo-700
+			hover:bg-slate-700
+			hover:text-yellow
 			focus:outline-none
-			active:bg-indigo-700
+
 		">
 		<slot />
 	</button>

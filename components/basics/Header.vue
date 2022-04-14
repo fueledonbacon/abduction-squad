@@ -4,7 +4,7 @@
   >
     <ConnectModal/>
 
-    <div class="flex justify-between items-baseline w-full sm:w-11/12">
+    <div class="flex justify-between items-center w-full sm:w-11/12">
       <BasicsLogo/>
       <!-- Desktop nav -->
       <nav class="hidden lg:flex">
@@ -28,12 +28,16 @@
       </nav>
       <ConnectButton/>
       <!-- Mobile menu -->
-      <div class="flex lg:hidden justify-end">
-        <button
+      <div class="flex lg:hidden justify-end ml-3">
+        <button 
           class="text-white z-20 "
           @click="toggleNavigator"
-          
-        ></button>
+        >
+                   <font-awesome-icon :icon="['fas','bars']" v-if="!isNavigatorOpen" />
+                   <font-awesome-icon :icon="['fas','xmark']" v-else />
+
+
+        </button>
         <transition name="scale">
           <nav
             v-if="isNavigatorOpen"
@@ -45,25 +49,39 @@
           >
             <ul class="flex flex-col text-white text-center">
               <li class="mb-3">
-                <a href="/#presentation-section">The Forest</a>
+                <a href="/#presentation-section">Presentation</a>
               </li>
               <li class="mb-3">
+                <a href="/#presentation-section">The Protocol</a>
+              </li>
+          
+              <li class="mb-3">
+                <a href="/#roadmap-section">Our Artist</a>
+              </li>
+                  <li class="mb-3">
                 <a href="/#roadmap-section">Road Map</a>
               </li>
               <li class="mb-3">
                 <a href="/#team-section">Our Team</a>
               </li>
-              <li class="mb-3">
+              <!-- <li class="mb-3">
                 <a href="/#faq-section">FAQ</a>
               </li>
               <li>
                 <a href="/whitelist">Whitelist</a>
+              </li> -->
+              <div class="flex flex-row justify-center space-x-8">
+                <li class="mt-8">
+                <a href="https://discord.com/invite/phunkyfungi" class="discord">
+                   <font-awesome-icon :icon="['fab','twitter']" />
+                </a>
               </li>
               <li class="mt-8">
                 <a href="https://discord.com/invite/phunkyfungi" class="discord">
-                  <img class="w-36 mx-auto" src="@/assets/img/discord.png" alt="Discord" />
+                   <font-awesome-icon :icon="['fab','discord']" />
                 </a>
               </li>
+              </div>
             </ul>
           </nav>
         </transition>

@@ -1,8 +1,11 @@
 module.exports = {
   content: [],
   theme: {
+ 
     extend: {
-      // add modifications to styling classes here
+      colors: {
+        'yellow':'#D7DF22'
+      },
     },
   },
   plugins: [],

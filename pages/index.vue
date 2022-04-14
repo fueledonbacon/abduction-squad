@@ -1,12 +1,13 @@
 <template>
-  <div id="app" class="min-h-screen w-full bg-black text-white">
+  <div id="app" class="min-h-screen w-full  text-white">
     <main class="w-full">
-      <!-- <SectionsCoverSection/> -->
-      <SectionsHeroOpSection/>
+      <SectionsCoverSection/>
+      <SectionsPresentationSection/>
+      <SectionsArtistSection />
       <SectionsCTAOSection/>
       <SectionsTeamSection/>
       <SectionsRoadmapSection/>
-      <SectionsFaqSection/>
+
 
     </main>
   </div>
