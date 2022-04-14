@@ -4,7 +4,8 @@
 			<img
       src="@/assets/images/White.png"
       alt=""
-      class="w-16 mr-3"
+      :class="width"
+      class=" mr-3"
     />
 
 		</a>
@@ -14,6 +15,13 @@
 <script>
 export default {
   name: 'BasicsLogo',
+ props: {
+    width: {
+      type: String,
+      default: 'w-16',
+      required: false,
+    },
+  },
 }
 </script>
 

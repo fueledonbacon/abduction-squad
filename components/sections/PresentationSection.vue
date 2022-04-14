@@ -1,42 +1,54 @@
 <template>
 	<section class="w-full bg-black">
-		<div class="flex flex-col px-12 pt-12 mx-auto max-w-7xl lg:flex-row space-y-3">
-			<div
+	<div class="relative w-full max-h-min">
+    <video class="hidden md:block relative w-full z-10 " style="width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1;" autoplay loop>
+			 <source src="https://video.wixstatic.com/video/afd815_2188d4ed22b1492a89a8ce93777c9dfb/1080p/mp4/file.mp4" > 
+		</video>
+    <div class="hidden md:block absolute w-full h-full top-0 left-0 bg-gray-900 opacity-40 z-20"></div>
+    <div class="flex  flex-col-reverse md:absolute     md:flex-row align-end h-full w-full px-8 m-auto  top-0 left-0 z-30">
+        		<div
 				class="
-					relative
+					md:relative
 					flex flex-col
 					items-center
-					justify-center
+					justify-end
 					flex-shrink-0
 					w-full
-					max-w-2xl
+					md:w-3/5
+
+					max-w-1/2
 					pt-16
 					mx-auto
-					lg:w-1/2 lg:mx-0
-					xl:w-5/12
 				">
-				<img src="@/assets/images/image1.webp" alt="" />
+				<img class="w-xl md:w-2xl " src="@/assets/images/image1.webp" alt="" />
 			</div>
 			<div
 				class="
-					relative
+					flex flex-col
+					space-y-8
 					w-full
-					p-10
+					md:w-2/5
+					py-10
+					justify-center
+					items-center
 					lg:ml-16
-					text-left
-					lg:w-1/2
-					xl:w-7/12
 					lg:mb-0
+					md:text-left
+					md:items-start
 				">
-				<h2 class="text-5xl font-bold sm:text-6xl mt-7 "><BasicsLogo /></h2>
+				<h2 class="text-5xl font-bold sm:text-6xl mt-7 "><BasicsLogo width="w-full md:w-9/12" /></h2>
 				<p class="text-white lg:max-w-sm mt-9">
 					is launching a Genesis Collection of 3,333 randomly-generated 3D aliens on
 					the Ethereum blockchain. These characters can be used in our mobile app P2W
 					game.
 				</p>
         <br>
-				<PillButton @click.native="null"> ABDUTION PROTOCOL </PillButton>
+				<div class="w-2/3">
+					<PillButton @click.native="null"> ABDUTION PROTOCOL </PillButton>
+				</div>
 			</div>
-		</div>
+    </div>
+	</div>
+
 	</section>
 </template>
