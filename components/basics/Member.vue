@@ -8,8 +8,8 @@
   		<div
          v-for="member in members"
       :key="member.key"
-     class="space-y-6 text-center lg:ml-0 md:ml-10">
-						<div class="relative w-48 h-48 p-2 mx-auto md:w-56 md:h-56">
+     class="space-y-6 text-center lg:mx-4 md:ml-16">
+						<div class="relative w-32 h-32 p-2 mx-auto md:w-48 md:h-48">
 							<img
 								class="relative z-20 w-full h-full rounded-full"
 								:src="member.pic"
@@ -18,7 +18,7 @@
 						<div class="space-y-2">
 							<div class="space-y-1 text-lg font-medium leading-6">
 								<h3 class="text-yellow">{{member.name}}</h3>
-								<p class="text-white">{{member.Role}}</p>
+								<p  class="text-white whitespace-pre" v-html="member.Role"></p>
 							</div>
 							<div class="relative flex items-center justify-center space-x-3">
 								<a target="_newblank" :href="member.twitter" :v-if="member.twitter" class="text-gray-300 hover:text-gray-400">

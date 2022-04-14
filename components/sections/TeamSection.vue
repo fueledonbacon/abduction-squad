@@ -19,7 +19,6 @@
 							text-xl
 							sm:text-3xl
 							md:text-[40px]
-							font-[bowlby]
 							sans-serif
 							leading-none
 							lg:leading-7
