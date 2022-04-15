@@ -4,10 +4,19 @@
 
 
 @font-face {
-	font-family: bowlby;
-	src: url('/fonts/bowlby-one.woff2') format('woff2');
-}
+	font-family: origflyingsausage;
 
+
+		src: url("https://static.wixstatic.com/ufonts/afd815_86a922a44a644f2684df9d290a079228/woff2/file.woff2") format("woff2"),
+		url("https://static.wixstatic.com/ufonts/afd815_86a922a44a644f2684df9d290a079228/woff/file.woff") format("woff"),
+		url("https://static.wixstatic.com/ufonts/afd815_86a922a44a644f2684df9d290a079228/ttf/file.ttf") format("ttf");
+}
+@font-face {
+	font-family: space-mono;
+	src: url("https://static.wixstatic.com/ufonts/3ce3bb_e8aff00dec244f79a73f8152ff7d6887/woff2/file.woff2") format("woff2"),
+	url("https://static.wixstatic.com/ufonts/3ce3bb_e8aff00dec244f79a73f8152ff7d6887/woff/file.woff") format("woff"),
+	url("https://static.wixstatic.com/ufonts/3ce3bb_e8aff00dec244f79a73f8152ff7d6887/ttf/file.ttf") format("ttf");
+	}
 @font-face {
 	font-family: monsterrat;
 	src: url('/fonts/Montserrat-Regular.ttf') format('TrueType');

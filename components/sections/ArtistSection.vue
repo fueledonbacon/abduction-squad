@@ -1,6 +1,6 @@
 <template>
 	<section
-		class="relative block py-20 overflow-hidden leading-6 text-left bg-black text-white">
+		class="relative block  pt-0 pb-20 md:py-20 overflow-hidden leading-6 text-left bg-black text-white">
 		<div
 			class="
 				w-full

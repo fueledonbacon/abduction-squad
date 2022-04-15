@@ -43,9 +43,10 @@
 								px-4
 								sm:px-6 sm:text-center
 								md:max-w-2xl md:mx-auto
+
 								lg:col-span-6 lg:text-left lg:flex lg:items-center
 							">
-							<div>
+
 								<h1
 									class="
 										mt-4
@@ -106,7 +107,7 @@
 										</div>
 									</div>
 								</div>
-							</div>
+
 						</div>
 						<div class="mt-16 sm:mt-24 lg:mt-0 lg:col-span-5 p-8">
 							<img
