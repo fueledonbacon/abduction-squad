@@ -5,10 +5,9 @@
       <SectionsPresentationSection/>
       <SectionsArtistSection />
       <SectionsCTAOSection/>
+      <SectionsOurArtistSection/>
       <SectionsTeamSection/>
       <SectionsRoadmapSection/>
-
-
     </main>
   </div>
 </template>
