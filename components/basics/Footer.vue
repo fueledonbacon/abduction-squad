@@ -15,7 +15,7 @@
             <PillButton> SUBMIT</PillButton>
         </div>
         
-				<div class="flex justify-center space-x-6 text-white text-2xl md:mt-4">
+				<div class="flex justify-center space-x-6 my-6 text-white text-2xl md:mt-4">
           <a href="">
             <font-awesome-icon :icon="['fab','twitter']"  />
           </a>
