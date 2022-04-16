@@ -44,7 +44,7 @@
 				</p>
         <br>
 				<div class="w-2/3">
-					<PillButton @click.native="null"> ABDUTION PROTOCOL </PillButton>
+					<PillButton @click.native="null"> ABDUCTION PROTOCOL </PillButton>
 				</div>
 			</div>
     </div>
