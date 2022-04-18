@@ -16,16 +16,16 @@
         </div>
         
 				<div class="flex justify-center space-x-6 my-6 text-white text-2xl md:mt-4">
-          <a href="">
+          <a href="https://twitter.com/AbductionSquad">
             <font-awesome-icon :icon="['fab','twitter']"  />
           </a>
-            <a href="">
+            <a href="https://discord.com/invite/abductionsquad">
             <font-awesome-icon :icon="['fab','discord']"  />
           </a>
         </div>
         
       <div class="w-full md:w-4/12 px-4 mx-auto text-center text-white">
-        <div class="text-sm text-blueGray-500 font-semibold py-1"> Copyright © 2022 made  🥓 </div>
+        <div class="text-sm text-blueGray-500 font-semibold py-1"> Copyright © 2022 </div>
       </div>
 
     </div>

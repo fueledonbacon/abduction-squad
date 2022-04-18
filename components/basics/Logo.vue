@@ -1,6 +1,6 @@
 <template>
   <div class="flex items-baseline justify-center md:justify-start">
-    <a href="#home">
+    <a href="/#home">
 			<img
       src="@/assets/images/ASLogoWhite.svg"
       alt=""

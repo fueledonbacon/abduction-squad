@@ -10,17 +10,18 @@
       <nav class="hidden lg:flex">
         <ul class="flex text-white items-center">
           <li class="mr-8">
-            <a class="text-lg xl:text-2xl" href="/#presentation-section">Presentation</a>
+            <a class="text-lg xl:text-2xl" href="/#presentation">Presentation</a>
           </li>
           <li class="mr-8">
-            <a class="text-lg xl:text-2xl" href="/#roadmap-section">Road Map</a>
+            <a class="text-lg xl:text-2xl" href="/#our-artist">Our Artist</a>
           </li>
           <li class="mr-8">
             <a class="text-lg xl:text-2xl" href="/#team-section">Our Team</a>
           </li>
           <li class="mr-8">
-            <a class="text-lg xl:text-2xl" href="/#faq-section">FAQ</a>
+            <a class="text-lg xl:text-2xl" href="/#roadmap-section">Road Map</a>
           </li>
+    
           <li>
             <a class="text-lg xl:text-2xl" href="/whitelist">Whitelist</a>
           </li>
@@ -49,7 +50,7 @@
           >
             <ul class="flex flex-col text-white text-center">
               <li class="mb-3">
-                <a href="/#presentation-section">Presentation</a>
+                <a href="/#presentation">Presentation</a>
               </li>
               <li class="mb-3">
                 <a href="/#presentation-section">The Protocol</a>
@@ -72,12 +73,12 @@
               </li> -->
               <div class="flex flex-row justify-center space-x-8">
                 <li class="mt-8">
-                <a href="https://discord.com/invite/phunkyfungi" class="discord">
+                <a href="https://twitter.com/AbductionSquad" target="_blank" >
                    <font-awesome-icon :icon="['fab','twitter']" />
                 </a>
               </li>
               <li class="mt-8">
-                <a href="https://discord.com/invite/phunkyfungi" class="discord">
+                <a href="https://discord.com/invite/abductionsquad" target="_blank">
                    <font-awesome-icon :icon="['fab','discord']" />
                 </a>
               </li>

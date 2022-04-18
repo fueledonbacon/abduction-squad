@@ -1,9 +1,7 @@
 import getSiteMeta from './utils/siteMeta'
+
 //Place rute to abi artifacs
 import { abi } from  './artifacts/contracts/TheMutantMushies.sol/TheMutantMushies.json'
-
-const siteConfig = require('./siteConfig.json') 
-const { title, description, url, iconName } = siteConfig
 
 export default {
 	// Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
@@ -27,7 +25,7 @@ export default {
 		}
 	},	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
-		title: title,
+		title: "Abduction Squad",
 		htmlAttrs: {
 			lang: 'en',
 		},
@@ -36,19 +34,19 @@ export default {
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' }, // mobile responsive https://search.google.com/test/mobile-friendly
 			{ name: 'format-detection', content: 'telephone=no' },
 			...getSiteMeta({
-				url: url,
-				title: title,
-				description: description,
-				mainImage: `${url}/${iconName}`,
+				url: "https://abductionsquad.io",
+				title: "Abduction Squad",
+				description: "",
+				mainImage: "/banner.jpg",
 			}),
 		],
 		link: [
 			{
 				hid: 'canonical',
 				rel: 'canonical',
-				href: url,
+				href: 'https://abductionsquad.io',
 			},
-			{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+			{ rel: 'icon', type:'image/png', href: '/favicon.png' },
 			{
 				rel: 'stylesheet',
 				href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Questrial&family=Roboto:wght@400;500;700;900&display=swap',
@@ -95,7 +93,7 @@ export default {
 	},
 
 	sitemap: {
-		hostname: url,
+		hostname: 'https://abductionsquad.io',
 		exclude: ['/admin/**'],
 		defaults: {
 			changefreq: 'daily',

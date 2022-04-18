@@ -5,7 +5,7 @@
 		"twitter": "https://twitter.com/b0bbyfl0wers",
 		"in": "https://www.linkedin.com/in/bryce-phelton-9b5865231",
 		"website": "",
-		"pic": "/images/members/BRYCE.webp"
+		"pic": "/members/BRYCE.webp"
 	},
 
 	{
@@ -14,7 +14,7 @@
 		"twitter": "https://twitter.com/KodosSquad",
 		"in": "",
 		"website": "",
-		"pic": "/images/members/ASHTON.webp"
+		"pic": "/members/ASHTON.webp"
 	},
 	{
 		"name": "ARMANDO DESOTO",
@@ -22,7 +22,7 @@
 		"twitter": "https://twitter.com/Zoto3D",
 		"in": "",
 		"website": "https://sotosan.artstation.com/",
-		"pic": "/images/members/ARMANDO.webp"
+		"pic": "/members/ARMANDO.webp"
 	},
 	{
 		"name": "FUELED ON BACON",
@@ -30,16 +30,16 @@
 		"twitter": "",
 		"in": "",
 		"website": "https://fueledonbacon.com/",
-		"pic": "/images/members/FoB.webp"
+		"pic": "/members/FoB.webp"
 	},
 
 	{
 		"name": "KEVIN S.",
 		"Role": "Marketing Director \n Social Media",
-		"twitter": "",
+		"twitter": "https://twitter.com/kmoney_69",
 		"in": "",
 		"website": "",
-		"pic": "/images/members/KEVIN.webp"
+		"pic": "/members/KEVIN.webp"
 	},
 	{
 		"name": "ERICA S.",
@@ -47,7 +47,7 @@
 		"twitter": "https://twitter.com/borederica_",
 		"in": "",
 		"website": "",
-		"pic": "/images/members/ERICA.webp"
+		"pic": "/members/ERICA.webp"
 	},
 	{
 		"name": "PROFITSOVERWAGES.",
@@ -55,7 +55,7 @@
 		"twitter": "https://twitter.com/_ShaniceBest",
 		"in": "",
 		"website": "",
-		"pic": "/images/members/PROFITSOVERWAGES.webp"
+		"pic": "/members/PROFITSOVERWAGES.webp"
 	},
 	{
 		"name": "DARBY C.",
@@ -63,7 +63,7 @@
 		"twitter": "https://twitter.com/loralinegrey",
 		"in": "",
 		"website": "",
-		"pic": "/images/members/DARBY.webp"
+		"pic": "/members/DARBY.webp"
 	},
 	{
 		"name": "CHARILIE",
@@ -71,6 +71,6 @@
 		"twitter": "",
 		"in": "",
 		"website": "",
-		"pic": "/images/members/CHARLIE.webp"
+		"pic": "/members/CHARLIE.webp"
 	}
 ]
