@@ -2,9 +2,6 @@ import getSiteMeta from './utils/siteMeta'
 //Place rute to abi artifacs
 import { abi } from  './artifacts/contracts/TheMutantMushies.sol/TheMutantMushies.json'
 
-const siteConfig = require('./siteConfig.json') 
-const { title, description, url, iconName } = siteConfig
-
 export default {
 	// Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
 	ssr: false,
@@ -27,7 +24,7 @@ export default {
 		}
 	},	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
-		title: title,
+		title: "Abduction Squad",
 		htmlAttrs: {
 			lang: 'en',
 		},
@@ -36,10 +33,10 @@ export default {
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' }, // mobile responsive https://search.google.com/test/mobile-friendly
 			{ name: 'format-detection', content: 'telephone=no' },
 			...getSiteMeta({
-				url: url,
-				title: title,
-				description: description,
-				mainImage: `${url}/${iconName}`,
+				url: "https://abductionsquad.io",
+				title: "Abduction Squad",
+				description: "Site description",
+				mainImage: "/banner.jpg",
 			}),
 		],
 		link: [
