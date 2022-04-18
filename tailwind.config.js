@@ -5,7 +5,6 @@ module.exports = {
     extend: {
       fontFamily: {
         'flyingSausage': ['flying-sausage'], 
-        'flyingSausage': ['flying-sausage'], 
         'spmono': ['space-mono']
       },
       colors: {

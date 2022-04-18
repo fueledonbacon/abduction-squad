@@ -1,7 +1,12 @@
 <template>
-	<section class="w-full py-16 bg-black lg:py-24">
-		<div class="px-12 mx-auto text-center max-w-7xl">
-			<div class="space-y-12 md:text-left">
+	<section class="w-full  bg-fixed bg-cover " id="team-section"
+			style="background-image: url('/assets/images/bg-image.jpeg')">
+
+		<div class="px-12 py-16  lg:py-24 text-center w-full bg-gray-900/[.9]
+"
+		
+		>
+			<div class="space-y-12 md:text-left ">
 				<div
 					class="
 						mb-20
@@ -10,6 +15,7 @@
 						md:max-w-2xl
 						sm:space-y-4
 						lg:max-w-5xl
+						
 					">
 					<img
 						class="max-w-xl m-auto"

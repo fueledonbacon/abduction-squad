@@ -1,8 +1,8 @@
 <template>
-<section class="w-full bg-black max-h-fit">
+<section class="w-full bg-black max-h-fit" id="our-artist">
 	<div class="relative w-full">
     <video class="md:max-h-192 hidden md:block relative w-full z-10 " style="width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1;" autoplay loop muted >
-			 <source src="https://video.wixstatic.com/video/afd815_2188d4ed22b1492a89a8ce93777c9dfb/1080p/mp4/file.mp4" > 
+			 <source src="@/assets/videos/bg-black.mp4" > 
 		</video>
     <div class="flex  flex-col  md:absolute     md:flex-row align-end h-full w-full px-8 m-auto  top-0 left-0 z-30">
       <div

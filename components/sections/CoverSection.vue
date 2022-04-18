@@ -37,7 +37,7 @@
 						text-3xl
 						md:text-7xl
 					">
-					<span class="block  font-[origflyingsausage] text-white tracking-[2px]"
+					<span class="block  font-flyingSausage text-white tracking-[2px]"
 						>GET <span class="text-yellow">ABDUCTED</span></span
 					>
 				</h1>
@@ -65,7 +65,7 @@
 				class="absolute top-0 z-0 w-full h-full mt-[87px] sm:mt-0">
 				<source
 					muted autoplay loop
-					src="https://video.wixstatic.com/video/afd815_0b65b2f65cf64429b59b3bc89ce7c6d5/1080p/mp4/file.mp4"
+					src="@/assets/videos/bg-cover.mp4"
 					type="video/MP4" />
 			</video>
 		</div>

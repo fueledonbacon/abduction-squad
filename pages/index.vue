@@ -4,7 +4,7 @@
       <SectionsCoverSection/>
       <SectionsPresentationSection/>
       <SectionsArtistSection />
-      <SectionsCTAOSection/>
+      <SectionsCTASection/>
       <SectionsOurArtistSection/>
       <SectionsTeamSection/>
       <SectionsRoadmapSection/>

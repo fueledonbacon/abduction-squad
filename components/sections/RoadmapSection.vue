@@ -1,12 +1,10 @@
 <template>
-	<section class="w-full py-16 bg-black lg:py-24">
+	<section class="w-full py-16 bg-black lg:py-24" id="roadmap-section">
 		<div class="px-12 relative w-full">
     <video class="md:max-h-192 hidden md:block relative w-full z-10" autoplay loop muted >
-			 <source src="https://video.wixstatic.com/video/afd815_2188d4ed22b1492a89a8ce93777c9dfb/1080p/mp4/file.mp4" > 
+			 <source src="@/assets/videos/bg-black.mp4" > 
 		</video>
-        <div class="md:absolute      h-full w-full px-8 m-auto  top-0 left-0 z-30">
-
-
+      <div class="md:absolute      h-full w-full  m-auto  top-0 left-0 z-30">
 				<div
 					class="
 						mb-20

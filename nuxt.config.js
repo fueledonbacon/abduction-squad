@@ -1,4 +1,5 @@
 import getSiteMeta from './utils/siteMeta'
+
 //Place rute to abi artifacs
 import { abi } from  './artifacts/contracts/TheMutantMushies.sol/TheMutantMushies.json'
 
@@ -35,7 +36,7 @@ export default {
 			...getSiteMeta({
 				url: "https://abductionsquad.io",
 				title: "Abduction Squad",
-				description: "Site description",
+				description: "",
 				mainImage: "/banner.jpg",
 			}),
 		],
@@ -43,7 +44,7 @@ export default {
 			{
 				hid: 'canonical',
 				rel: 'canonical',
-				href: url,
+				href: 'https://abductionsquad.io',
 			},
 			{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
 			{
@@ -92,7 +93,7 @@ export default {
 	},
 
 	sitemap: {
-		hostname: url,
+		hostname: 'https://abductionsquad.io',
 		exclude: ['/admin/**'],
 		defaults: {
 			changefreq: 'daily',

@@ -16,10 +16,10 @@
         </div>
         
 				<div class="flex justify-center space-x-6 my-6 text-white text-2xl md:mt-4">
-          <a href="">
+          <a href="https://twitter.com/AbductionSquad">
             <font-awesome-icon :icon="['fab','twitter']"  />
           </a>
-            <a href="">
+            <a href="https://discord.com/invite/abductionsquad">
             <font-awesome-icon :icon="['fab','discord']"  />
           </a>
         </div>
