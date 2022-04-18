@@ -1,6 +1,6 @@
 <template>
 	<section class="w-full  bg-fixed bg-cover " id="team-section"
-			style="background-image: url('/assets/images/bg-image.jpeg')">
+			style="background-image: url('/bg-image.jpeg')">
 
 		<div class="px-12 py-16  lg:py-24 text-center w-full bg-gray-900/[.9]
 "

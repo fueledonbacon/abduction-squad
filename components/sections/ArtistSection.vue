@@ -1,7 +1,7 @@
 <template>
 	<section 
 		class="bg-fixed bg-cover  relative block    overflow-hidden leading-6 text-left  text-white"
-		style="background-image: url('/assets/images/bg-image.jpeg')">
+		style="background-image: url('/bg-image.jpeg')">
 
 
 		<div

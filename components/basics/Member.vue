@@ -12,7 +12,7 @@
 						<div class="relative w-32 h-32 p-2 mx-auto md:w-48 md:h-48">
 							<img
 								class="relative z-20 w-full h-full rounded-full hover:border-2 transition ease-in-out delay-150   duration-300 hover:border-yellow hover:p-2  "
-								:src="'assets'+member.pic"
+								:src="member.pic"
 								alt="" />
 						</div>
 						<div class="space-y-2">
