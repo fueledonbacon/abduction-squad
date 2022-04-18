@@ -4,12 +4,13 @@
 
 
 @font-face {
-	font-family: origflyingsausage;
+	font-family: flying-sausage;
 
 
-		src: url("https://static.wixstatic.com/ufonts/afd815_86a922a44a644f2684df9d290a079228/woff2/file.woff2") format("woff2"),
-		url("https://static.wixstatic.com/ufonts/afd815_86a922a44a644f2684df9d290a079228/woff/file.woff") format("woff"),
-		url("https://static.wixstatic.com/ufonts/afd815_86a922a44a644f2684df9d290a079228/ttf/file.ttf") format("ttf");
+		src: url("@/assets/fonts/FlyingSausage/FlyingSausage-Fill.woff2") format("woff2"),
+		url("@/assets/fonts/FlyingSausage/FlyingSausage-Fill.woff") format("woff"),
+		url("@/assets/fonts/FlyingSausage/FlyingSausage-Fill.ttf") format("ttf");
+
 }
 @font-face {
 	font-family: space-mono;

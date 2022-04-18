@@ -44,7 +44,7 @@
 				<h2 class="text-5xl font-bold sm:text-6xl mt-7 ">
           MEET OUR ARTIST
         </h2>
-				<p class="text-white lg:max-w-sm mt-9">
+				<p class="font-spmono text-white lg:max-w-sm mt-9">
             Video game and VFX veteran Armando "AO"
             DeSoto has worked in the industry for the past 18 years. 
             Along with working with top game studios and VFX houses,

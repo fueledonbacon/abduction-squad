@@ -34,9 +34,10 @@
 					lg:ml-16
 					lg:mb-0
 					md:text-left
-					md:items-start
+					md:items-start 
+					font-spmono
 				">
-				<h2 class="text-5xl font-bold sm:text-6xl mt-7 "><BasicsLogo width="w-48 " /></h2>
+				<h2 class=" text-5xl font-bold sm:text-6xl mt-7 "><BasicsLogo width="w-48 " /></h2>
 				<p class="text-white lg:max-w-sm mt-9">
 					is launching a Genesis Collection of 3,333 randomly-generated 3D aliens on
 					the Ethereum blockchain. These characters can be used in our mobile app P2W
@@ -44,7 +45,7 @@
 				</p>
 
 				<div class="w-full text-center md:text-left">
-					<PillButton @click.native="null"> ABDUTION PROTOCOL </PillButton>
+					<PillButton @click.native="null" class="font-semibold"> ABDUCTION PROTOCOL </PillButton>
 				</div>
 			</div>
     </div>

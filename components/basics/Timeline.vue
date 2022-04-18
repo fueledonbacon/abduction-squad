@@ -6,7 +6,7 @@
 			v-for="item in timelineItems"
 			:key="item.key">
 			<h5
-				style="font-family:'origflyingsausage'" class="w-2/12 sm:flex  text-yellow text-7xl">
+				 class="font-flyingSausage w-2/12 sm:flex  text-yellow text-7xl">
 				{{ item.title }}
 			</h5>
       <h3  style="font-family:'space-mono'" class="text-white whitespace-pre">{{item.texts}}

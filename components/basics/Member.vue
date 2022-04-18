@@ -11,14 +11,14 @@
      class="space-y-6 text-center lg:mx-4 md:ml-16">
 						<div class="relative w-32 h-32 p-2 mx-auto md:w-48 md:h-48">
 							<img
-								class="relative z-20 w-full h-full rounded-full hover:border-2 transition ease-in-out delay-150   duration-300 hover:border-yellow hover:p-2 "
+								class="relative z-20 w-full h-full rounded-full hover:border-2 transition ease-in-out delay-150   duration-300 hover:border-yellow hover:p-2  "
 								:src="'assets'+member.pic"
 								alt="" />
 						</div>
 						<div class="space-y-2">
 							<div class="space-y-1 text-lg font-medium leading-6">
 								<h3 class="text-yellow">{{member.name}}</h3>
-								<p  class="text-white whitespace-pre" v-html="member.Role"></p>
+								<p  class="font-spmono text-white whitespace-pre" v-html="member.Role"></p>
 							</div>
 							<div class="relative flex items-center justify-center space-x-3">
 								<a target="_newblank" :href="member.twitter" v-if="member.twitter"   class="text-gray-300 hover:text-gray-400">

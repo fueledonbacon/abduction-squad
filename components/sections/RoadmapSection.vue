@@ -17,8 +17,8 @@
 						lg:max-w-5xl
 					">
 					<img
-						class="m-auto"
-						src="https://static.wixstatic.com/media/afd815_5874587ce6df4fd7bc738f462c8b633b~mv2.png/v1/fill/w_551,h_114,al_c,usm_0.66_1.00_0.01,enc_auto/Artboard%2010.png" />
+						class="m-auto max-w-xl"
+						src="@/assets/images/spacemap.svg" />
 					<h3
 						class="
 							text-xl
@@ -29,6 +29,7 @@
 							lg:leading-7
 							text-center text-white
 							tracking-[2px]
+
 						">
 						ROADMAP 1.0
 					</h3>

@@ -25,7 +25,7 @@
         </div>
         
       <div class="w-full md:w-4/12 px-4 mx-auto text-center text-white">
-        <div class="text-sm text-blueGray-500 font-semibold py-1"> Copyright © 2022 made  🥓 </div>
+        <div class="text-sm text-blueGray-500 font-semibold py-1"> Copyright © 2022 </div>
       </div>
 
     </div>

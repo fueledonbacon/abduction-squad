@@ -12,8 +12,8 @@
 						lg:max-w-5xl
 					">
 					<img
-						class="m-auto"
-						src="https://static.wixstatic.com/media/afd815_99f41735c9bc448cb9c92037616d5413~mv2.png/v1/crop/x_16,y_0,w_750,h_159/fill/w_566,h_120,al_c,usm_0.66_1.00_0.01,enc_auto/SPACE%20CREW%20(1).png" />
+						class="max-w-xl m-auto"
+						src="@/assets/images/spacecrew.svg" />
 					<h3
 						class="
 							text-xl

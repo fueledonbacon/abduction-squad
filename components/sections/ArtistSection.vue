@@ -14,8 +14,8 @@
 				sm:px-12
 				xl:px-12
 			">
-			<div class="relative w-full px-4 text-center space-y-8">
-				<div class="md:w-1/2 mx-auto box-border text-sm font-semibold text-white leading-6  ">
+			<div class="relative w-full px-4 text-center font-spmono space-y-8">
+				<div class=" md:w-1/2 mx-auto box-border text-sm font-regular text-white leading-6 ">
 					<p>
 						Our primary focus is a play-to-win style game with out-of-this-world
 						prizes. Holders of our NFT will get the chance to unlock buffs for their

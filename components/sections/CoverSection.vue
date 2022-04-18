@@ -33,11 +33,11 @@
 						mt-0
 						text-center
 						tracking-tight
-					 text-slate-50 text-xl
-						sm:text-3xl
-						md:text-6xl
+					text-slate-50
+						text-3xl
+						md:text-7xl
 					">
-					<span class="block text-5xl  font-[origflyingsausage] text-white tracking-[2px]"
+					<span class="block  font-[origflyingsausage] text-white tracking-[2px]"
 						>GET <span class="text-yellow">ABDUCTED</span></span
 					>
 				</h1>
