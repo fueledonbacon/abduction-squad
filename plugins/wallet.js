@@ -4,6 +4,11 @@ import { ethers } from 'ethers'
 // import WalletConnectProvider from "@walletconnect/web3-provider"
 import { getCurrency, CHAINID_CONFIG_MAP } from '@/utils/metamask'
 
+// import Kinesis Plugin https://github.com/Aminerman/vue-kinesis
+import VueKinesis from 'vue-kinesis'
+Vue.use(VueKinesis)
+//
+
 export default async ({ $config, store }, inject) => {
 
     const wallet = Vue.observable({
