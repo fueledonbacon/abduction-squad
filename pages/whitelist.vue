@@ -107,7 +107,7 @@
 	</main>
 </template>
 <script>
-import whitelist from '@/assets/json/extended-whitelist.json'
+import whitelist from '@/assets/json/whitelist.json'
 import { ethers } from 'ethers'
 
 export default {
