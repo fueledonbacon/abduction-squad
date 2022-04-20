@@ -12,5 +12,5 @@
 }
 @font-face {
 	font-family: space-mono;
-	src:  url('/fonts/Space_Mono/SpaceMono-Regular.ttf') format('TrueType');
+	src:  url('@/assets/fonts/Space_Mono/SpaceMono-Regular.ttf') format('TrueType');
 }
