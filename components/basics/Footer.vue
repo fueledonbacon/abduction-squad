@@ -10,7 +10,7 @@
             </h1>
         </div>
 
-        <div class="flex flex-col justify-center w-full mt-5 space-y-3 sm:space-x-3 sm:space-y-0 sm:flex-row lg:mt-8">
+        <div class="hidden  flex-col justify-center w-full mt-5 space-y-3 sm:space-x-3 sm:space-y-0 sm:flex-row lg:mt-8">
             <input type="text" class="border-0 border-b border-yellow container inline-block h-12 px-3 overflow-visible text-base font-semibold text-gray-700 bg-transparent  border-solid rounded-sm sm:max-w-xs lg:max-w-sm focus:outline-none cursor-text md:text-left focus:ring-2" placeholder="Your email address">
             <PillButton> SUBMIT</PillButton>
         </div>

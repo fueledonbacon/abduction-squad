@@ -1,5 +1,5 @@
 <template>
-	<section class="w-full bg-black" id="prizes">
+	<section class="w-full overflow-hidden bg-black" id="prizes">
 
 	<div class="relative w-full max-h-min">
 
@@ -20,26 +20,26 @@
 						">
             TRAIT <span class="text-white font-sans">PRIZES</span>
 					</h3>
-          <div class="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8 mt-2">
+          <div class="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8 mt-2  md:mt-0 justify-items-center h-[inherit]">
             <div class="flex md:flex-row flex-col items-center text-center">
-              <img src="@/assets/images/merch/bodyMerch.png" alt="" >
+              <img class="md:self-end" src="@/assets/images/merch/bodyMerch.png" alt="" >
               <div>
                 <h4 class="tracking-[2px] text-2xl font-sans leading-none">AS MERCH:</h4>
-                <p class="text-2xl text-yellow font-[space-mono]"> Squad Merch</p>
+                <p class="font-light text-2xl text-yellow font-[space-mono]"> Squad Merch</p>
               </div>
             </div>
                <div class="flex md:flex-row flex-col items-center text-center">
-              <img src="@/assets/images/merch/bodyEth.png" alt="" >
+              <img class="md:self-end" src="@/assets/images/merch/bodyEth.png" alt="" >
               <div>
                 <h4 class="tracking-[2px] text-2xl font-sans leading-none">ETH EYES:</h4>
-                <p class="text-2xl text-yellow font-[space-mono]"> ETH</p>
+                <p class="font-light text-2xl text-yellow font-[space-mono]"> ETH</p>
               </div>
             </div>
                <div class="flex md:flex-row flex-col items-center text-center">
-              <img src="@/assets/images/merch/bodyVr.png" alt="" >
+              <img class="md:self-end"  src="@/assets/images/merch/bodyVr.png" alt="" >
               <div>
                 <h4 class="tracking-[2px] text-2xl font-sans leading-none">VR VISOR:</h4>
-                <p class="text-2xl text-yellow font-[space-mono]"> VR Headset</p>
+                <p class="font-light text-2xl text-yellow font-[space-mono]"> VR Headset</p>
               </div>
             </div>
             
