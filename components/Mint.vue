@@ -39,7 +39,7 @@
 <script>
 import { ethers } from 'ethers'
 import { generateProof } from '@/utils/merkle-proof.js'
-import whitelist from '@/assets/json/extended-whitelist.json'
+import whitelist from '@/assets/json/whitelist.json'
 import errorMessages from '@/utils/errorMessages.js'
 
 
