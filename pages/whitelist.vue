@@ -10,7 +10,7 @@
 				antialiased
 				bg-no-repeat
 			">
-      <div class="absolute -z-0 w-full h-full top-0 bg-slate-800/60 min-h-full "></div>
+      <div class="absolute -z-0 w-full h-full min-h-[inherit] top-0 bg-gray-900/[.9] min-h-full "></div>
 			<div class="mx-auto max-w-7xl">
 				<div class="container py-32 mx-auto text-center sm:px-4">
 					<h1
@@ -107,7 +107,7 @@
 	</main>
 </template>
 <script>
-import whitelist from '@/assets/json/extended-whitelist.json'
+import whitelist from '@/assets/json/whitelist.json'
 import { ethers } from 'ethers'
 
 export default {
@@ -181,7 +181,7 @@ export default {
 </script>
 <style scoped>
 section {
-	background-image: url('https://static.wixstatic.com/media/11062b_8b2fae5b78584bb79be77f14c367d5aa~mv2.jpg/v1/fill/w_3584,h_2838,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/11062b_8b2fae5b78584bb79be77f14c367d5aa~mv2.jpg');
+	background-image: url('/bg-image.jpeg');
   background-size: cover;
 
 }

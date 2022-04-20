@@ -107,7 +107,9 @@ export default async ({ $config, store }, inject) => {
 		},
 
         async connect() {
-
+            if (!window.ethereum) {
+				window.ethereum = await this.Web3Modal.connect();
+			}
             wallet.network = await wallet.provider.getNetwork()
             const [account] = await wallet.provider.send('eth_requestAccounts')
             console.info('wallet connected', {account})
