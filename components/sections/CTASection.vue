@@ -1,6 +1,6 @@
 <template>
   <section class="h-fit py-8 cta">
-    <video class="w-full fixed top-0 -z-50 h-full object-cover"  autoplay loop src="https://video.wixstatic.com/video/afd815_089ae07237e64153831b91a3b1cbb724/1080p/mp4/file.mp4">
+    <video class="w-full fixed top-0 -z-50 h-full object-cover"  autoplay loop src="@/assets/videos/bg-cta.mp4">
 
     </video>
     <div class="max-w-4xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">

@@ -21,9 +21,9 @@
 				">
     <div class="relative w-full min-h-full pb-96  overflow-hidden md:overflow-visible">
 
-  <img class="absolute bottom-0 left-0  md:left-1/2 md:w-2/3 z-10 w-full" src="https://static.wixstatic.com/media/afd815_9a416fe234ff4cd99c0610bc61566598~mv2.png/v1/crop/x_203,y_127,w_797,h_872/fill/w_797,h_872,al_c,enc_auto/Lazer%20(1).png"  />
+  <img class="absolute bottom-0 left-0  md:left-1/2 md:w-2/3 z-10 w-full" src="@/assets/images/lazer_eyes.png"  />
 
-  <img class="absolute bottom-0 left-16 md:left-20 md:w-2/3 w-full" src="https://static.wixstatic.com/media/afd815_be8bcb875b814df096bf08c225ddc0ac~mv2.png/v1/fill/w_1000,h_1000,al_c,enc_auto/drool%20(1).png"/>
+  <img class="absolute bottom-0 left-16 md:left-20 md:w-2/3 w-full" src="@/assets/images/drool.png"/>
 
 </div>
 
