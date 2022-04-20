@@ -5,25 +5,12 @@
 
 @font-face {
 	font-family: flying-sausage;
-
-
-		src: url("@/assets/fonts/FlyingSausage/FlyingSausage-Fill.woff2") format("woff2"),
-		url("@/assets/fonts/FlyingSausage/FlyingSausage-Fill.woff") format("woff"),
-		url("@/assets/fonts/FlyingSausage/FlyingSausage-Fill.ttf") format("ttf");
+	src: url("@/assets/fonts/FlyingSausage/FlyingSausage-Fill.woff2") format("woff2"),
+	url("@/assets/fonts/FlyingSausage/FlyingSausage-Fill.woff") format("woff"),
+	url("@/assets/fonts/FlyingSausage/FlyingSausage-Fill.ttf") format("ttf");
 
 }
 @font-face {
 	font-family: space-mono;
-	src: url("https://static.wixstatic.com/ufonts/3ce3bb_e8aff00dec244f79a73f8152ff7d6887/woff2/file.woff2") format("woff2"),
-	url("https://static.wixstatic.com/ufonts/3ce3bb_e8aff00dec244f79a73f8152ff7d6887/woff/file.woff") format("woff"),
-	url("https://static.wixstatic.com/ufonts/3ce3bb_e8aff00dec244f79a73f8152ff7d6887/ttf/file.ttf") format("ttf");
-	}
-@font-face {
-	font-family: monsterrat;
-	src: url('/fonts/Montserrat-Regular.ttf') format('TrueType');
-}
-
-@font-face {
-	font-family: monsterrat-bold;
-	src: url('/fonts/Montserrat-Bold.ttf') format('TrueType');
+	src:  url('/fonts/Space_Mono/SpaceMono-Regular.ttf') format('TrueType');
 }
