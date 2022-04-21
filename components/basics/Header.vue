@@ -8,7 +8,7 @@
       <BasicsLogo/>
       <!-- Desktop nav -->
       <nav class="hidden lg:flex">
-        <ul class="flex text-white items-center">
+        <ul class="flex text-white items-center font-spmono">
           <li class="mr-8">
             <a class="text-lg xl:text-2xl" href="/#presentation">Presentation</a>
           </li>
