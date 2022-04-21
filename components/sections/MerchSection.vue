@@ -18,7 +18,7 @@
 							text-center text-yellow
 							tracking-[2px]
 						">
-            TRAIT <span class="text-white font-sans">PRIZES</span>
+            TRAIT <span class="text-white text-3xl md:text-5xl font-[oswald-medium]">PRIZES</span>
 					</h3>
           <div class="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8 mt-2  md:mt-0 justify-items-center h-[inherit]">
             <div class="flex md:flex-row flex-col items-center text-center">
