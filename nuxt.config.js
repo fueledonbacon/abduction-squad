@@ -25,7 +25,7 @@ export default {
 		}
 	},	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
-		title: "Abduction Squad",
+		title: "Abduction Squad NFT | Play to Win Game",
 		htmlAttrs: {
 			lang: 'en',
 		},
@@ -35,9 +35,9 @@ export default {
 			{ name: 'format-detection', content: 'telephone=no' },
 			...getSiteMeta({
 				url: "https://abductionsquad.io",
-				title: "Abduction Squad",
-				description: "",
-				mainImage: "/banner.jpg",
+				title: "Abduction Squad NFT | Play to Win Game",
+				description: "Abduction Squad is launching a Genesis Collection of 3,333 randomly-generated 3D NFT aliens on the Ethereum blockchain. These characters can be used in our mobile app P2W game.",
+				mainImage: "/banner2.jpg",
 			}),
 		],
 		link: [
