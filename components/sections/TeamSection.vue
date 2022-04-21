@@ -25,7 +25,7 @@
 							text-xl
 							sm:text-3xl
 							md:text-[40px]
-							sans-serif
+							font-[oswald-medium]
 							leading-none
 							lg:leading-7
 							text-center text-white

@@ -14,3 +14,8 @@
 	font-family: space-mono;
 	src:  url('@/assets/fonts/Space_Mono/SpaceMono-Regular.ttf') format('TrueType');
 }
+
+@font-face {
+	font-family: oswald-medium;
+	src:  url('@/assets/fonts/Oswald/Oswald-Medium.ttf') format('TrueType');
+}

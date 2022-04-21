@@ -41,7 +41,7 @@
 					lg:mb-0
           text-center
 				">
-				<h2 class="text-5xl font-bold sm:text-6xl mt-7 ">
+				<h2 class="text-4xl font-[oswald-medium] sm:text-5xl mt-7 ">
           MEET OUR ARTIST
         </h2>
 				<p class="font-spmono text-white lg:max-w-sm mt-9">
