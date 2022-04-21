@@ -4,16 +4,18 @@
 
 
 @font-face {
-	font-family: bowlby;
-	src: url('/fonts/bowlby-one.woff2') format('woff2');
+	font-family: flying-sausage;
+	src: url("@/assets/fonts/FlyingSausage/FlyingSausage-Fill.woff2") format("woff2"),
+	url("@/assets/fonts/FlyingSausage/FlyingSausage-Fill.woff") format("woff"),
+	url("@/assets/fonts/FlyingSausage/FlyingSausage-Fill.ttf") format("ttf");
+
+}
+@font-face {
+	font-family: space-mono;
+	src:  url('@/assets/fonts/Space_Mono/SpaceMono-Regular.ttf') format('TrueType');
 }
 
 @font-face {
-	font-family: monsterrat;
-	src: url('/fonts/Montserrat-Regular.ttf') format('TrueType');
-}
-
-@font-face {
-	font-family: monsterrat-bold;
-	src: url('/fonts/Montserrat-Bold.ttf') format('TrueType');
+	font-family: oswald-medium;
+	src:  url('@/assets/fonts/Oswald/Oswald-Medium.ttf') format('TrueType');
 }

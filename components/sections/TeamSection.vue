@@ -1,7 +1,12 @@
 <template>
-	<section class="w-full py-16 bg-black lg:py-24">
-		<div class="px-12 mx-auto text-center max-w-7xl">
-			<div class="space-y-12 md:text-left">
+	<section class="w-full  bg-fixed bg-cover " id="team-section"
+			style="background-image: url('/bg-image.jpeg')">
+
+		<div class="px-12 py-16  lg:py-24 text-center w-full bg-gray-900/[.9]
+"
+		
+		>
+			<div class="space-y-12 md:text-left ">
 				<div
 					class="
 						mb-20
@@ -10,16 +15,17 @@
 						md:max-w-2xl
 						sm:space-y-4
 						lg:max-w-5xl
+						
 					">
 					<img
-						class="m-auto"
-						src="https://static.wixstatic.com/media/afd815_99f41735c9bc448cb9c92037616d5413~mv2.png/v1/crop/x_16,y_0,w_750,h_159/fill/w_566,h_120,al_c,usm_0.66_1.00_0.01,enc_auto/SPACE%20CREW%20(1).png" />
+						class="max-w-xl m-auto"
+						src="@/assets/images/spacecrew.svg" />
 					<h3
 						class="
 							text-xl
 							sm:text-3xl
 							md:text-[40px]
-							sans-serif
+							font-[oswald-medium]
 							leading-none
 							lg:leading-7
 							text-center text-white

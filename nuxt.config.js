@@ -1,4 +1,5 @@
 import getSiteMeta from './utils/siteMeta'
+
 //Place rute to abi artifacs
 import { abi } from  './artifacts/contracts/TheMutantMushies.sol/TheMutantMushies.json'
 
@@ -24,7 +25,7 @@ export default {
 		}
 	},	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
-		title: "Abduction Squad",
+		title: "Abduction Squad NFT | Play to Win Game",
 		htmlAttrs: {
 			lang: 'en',
 		},
@@ -34,22 +35,18 @@ export default {
 			{ name: 'format-detection', content: 'telephone=no' },
 			...getSiteMeta({
 				url: "https://abductionsquad.io",
-				title: "Abduction Squad",
-				description: "Site description",
-				mainImage: "/banner.jpg",
+				title: "Abduction Squad NFT | Play to Win Game",
+				description: "Abduction Squad is launching a Genesis Collection of 3,333 randomly-generated 3D NFT aliens on the Ethereum blockchain. These characters can be used in our mobile app P2W game.",
+				mainImage: "/banner2.jpg",
 			}),
 		],
 		link: [
 			{
 				hid: 'canonical',
 				rel: 'canonical',
-				href: url,
+				href: 'https://abductionsquad.io',
 			},
-			{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-			{
-				rel: 'stylesheet',
-				href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Questrial&family=Roboto:wght@400;500;700;900&display=swap',
-			},
+			{ rel: 'icon', type:'image/png', href: '/favicon.png' },
 		],
 		script: [
 			{
@@ -92,7 +89,7 @@ export default {
 	},
 
 	sitemap: {
-		hostname: url,
+		hostname: 'https://abductionsquad.io',
 		exclude: ['/admin/**'],
 		defaults: {
 			changefreq: 'daily',

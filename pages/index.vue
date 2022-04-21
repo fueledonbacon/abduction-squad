@@ -4,11 +4,11 @@
       <SectionsCoverSection/>
       <SectionsPresentationSection/>
       <SectionsArtistSection />
-      <SectionsCTAOSection/>
+      <SectionsMerchSection/>
+      <SectionsCTASection/>
+      <SectionsOurArtistSection/>
       <SectionsTeamSection/>
       <SectionsRoadmapSection/>
-
-
     </main>
   </div>
 </template>

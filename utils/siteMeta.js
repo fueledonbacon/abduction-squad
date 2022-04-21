@@ -1,8 +1,8 @@
 const type = "website";
-const url = "https://999balloons.io";
-const title = "999 Balloons";
-const description = "";
-const mainImage = "https://999balloons.io/999Balloons_TwitImg.jpg";
+const url = "https://www.abductionsquad.io/";
+const title = "AbductionSquad";
+const description = "is launching a Genesis Collection of 3,333 randomly-generated 3D aliens on the Ethereum blockchain. These characters can be used in our mobile app P2W game. ";
+const mainImage = "/banner.png";
 const twitterCard = "summary_large_image";
 
 export default (meta) => {
@@ -49,9 +49,14 @@ export default (meta) => {
         content: (meta && meta.mainImage) || mainImage,
       },
       {
+        hid: "theme-color",
+        name: "theme-color",
+        content: "#D7DF22"
+      },
+      {
         hid: "twitter:card",
         name: "twitter:card",
-        content: (meta && meta.twitterCard) || twitterCard,
+        content: 'summary_large_image',
       },
       {
         hid: "twitter:url",
@@ -69,6 +74,7 @@ export default (meta) => {
         content: (meta && meta.description) || description,
       },
       {
+        
         hid: "twitter:image",
         name: "twitter:image",
         content: (meta && meta.mainImage) || mainImage,

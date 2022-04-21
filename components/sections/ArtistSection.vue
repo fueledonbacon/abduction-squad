@@ -1,10 +1,13 @@
 <template>
-	<section
-		class="relative block py-20 overflow-hidden leading-6 text-left bg-black text-white">
+	<section 
+		class="bg-fixed bg-cover  relative block    overflow-hidden leading-6 text-left  text-white"
+		style="background-image: url('/bg-image.jpeg')">
+
+
 		<div
 			class="
 				w-full
-
+				pt-10 pb-20 md:py-20
 				flex flex-row
 				space-y-12
 				md:px-16
@@ -13,9 +16,10 @@
 				text-left
 				sm:px-12
 				xl:px-12
+				bg-gray-900/[.9]
 			">
-			<div class="relative w-full px-4 text-center space-y-8">
-				<div class="md:w-1/2 mx-auto box-border text-sm font-semibold text-white leading-6  ">
+			<div class="relative w-full px-4 text-center font-spmono space-y-8">
+				<div class="md:w-1/2 mx-auto box-border text-sm font-regular text-white leading-6 ">
 					<p>
 						Our primary focus is a play-to-win style game with out-of-this-world
 						prizes. Holders of our NFT will get the chance to unlock buffs for their

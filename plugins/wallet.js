@@ -4,6 +4,11 @@ import { ethers } from 'ethers'
 // import WalletConnectProvider from "@walletconnect/web3-provider"
 import { getCurrency, CHAINID_CONFIG_MAP } from '@/utils/metamask'
 
+// import Kinesis Plugin https://github.com/Aminerman/vue-kinesis
+import VueKinesis from 'vue-kinesis'
+Vue.use(VueKinesis)
+//
+
 export default async ({ $config, store }, inject) => {
 
     const wallet = Vue.observable({
@@ -102,7 +107,9 @@ export default async ({ $config, store }, inject) => {
 		},
 
         async connect() {
-
+            if (!window.ethereum) {
+				window.ethereum = await this.Web3Modal.connect();
+			}
             wallet.network = await wallet.provider.getNetwork()
             const [account] = await wallet.provider.send('eth_requestAccounts')
             console.info('wallet connected', {account})

@@ -10,11 +10,12 @@
 			bg-[#1f2937]
 			mb-[87px]
 			sm:mb-0
+			z-9
 		">
 		<transition name="fade" mode="out-in">		
 		
 		<div  v-if="timerCount==0"
-			class="absolute w-full h-full top-0 bg-slate-800/40 z-10 mt-[87px] sm:mt-0">
+			class="absolute w-full h-full top-0 bg-black-800/40 z-10 mt-[87px] sm:mt-0">
 			<div
 
 				class="
@@ -24,7 +25,6 @@
 					text-center
 					min-h-[56vw]
 					max-w-6xl
-					px-7
 					m-auto
 				">
 				<h1
@@ -33,28 +33,15 @@
 						mt-0
 						text-center
 						tracking-tight
-					 text-slate-50 text-xl
-						sm:text-3xl
-						md:text-6xl
+					text-slate-50
+						text-3xl
+						md:text-7xl
 					">
-					<span class="block font-[omegleregular] tracking-[2px]"
-						>NFT LAUNCHES</span
+					<span class="block  font-flyingSausage text-white tracking-[2px]"
+						>GET <span class="text-yellow">ABDUCTED</span></span
 					>
 				</h1>
-				<p
-					class="
-						w-full
-						mt-[7px]
-						sm:mt-[24px]
-
-						text-center
-					text-slate-50
-						sm:text-lg
-						lg:text-2xl
-						md:max-w-3xl
-					">
-					Start Your Journey Now
-				</p>
+	
 				<div
 					class="
 						relative
@@ -64,20 +51,21 @@
 						mt-[7px]
 						sm:mt-[24px] sm:ml-0
 					">
-					<PillButton @click.native="null"> Mint Now</PillButton>
+					<PillButton @click.native="null"> JOIN</PillButton>
 
 				</div>
 			</div>
 		</div>
 		</transition>
-		<div id="myVideo">
+		<div>
 			<video
 				autoplay
 				muted
 				loop
 				class="absolute top-0 z-0 w-full h-full mt-[87px] sm:mt-0">
 				<source
-					src="https://video.wixstatic.com/video/afd815_0b65b2f65cf64429b59b3bc89ce7c6d5/1080p/mp4/file.mp4"
+					muted autoplay loop
+					src="@/assets/videos/bg-cover.mp4"
 					type="video/MP4" />
 			</video>
 		</div>
