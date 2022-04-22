@@ -163,7 +163,8 @@ export default {
 			}
 		},
 		onWhitelist() {
-			return whitelist.includes(this.address.toLowerCase())
+			// console.log();
+			return whitelist.includes(this.address)
 		},
 
 		verify() {
