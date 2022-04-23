@@ -1,20 +1,22 @@
 <template>
 	<section class="relative bg-black" id="game-section">
-		<h2 class="mb-2 flex justify-center">
-			<!-- TODO: change this to the right title when available
+		<!-- <h2 class="mb-2 flex justify-center">
+			TODO: change this to the right title when available
 			<img
 				data-aos="fade-down"
 				class="h-16"
 				src="@/assets/images/image1.webp"
 				alt="FAQ" />
-				 -->
-		</h2>
+				 
+		</h2> -->
 
 		<div class="flex justify-center">
 			<div class="max-w-2xl">
-				<p class="leading-loose text-yellow mb-5 text-shadow-xl">
-					Play Alpha Now!
-				</p>
+				
+					<h2 class="text-yellow mb-2 flex justify-center">
+					ALPHA
+					</h2>
+				
 			</div>
 		</div>
 
@@ -45,16 +47,9 @@
 							:style="{ width: progressBarPercent }"></div>
 					</div>
 				</div>
-			</div>
-
-			<!-- SMALL MODE ONLY -->
-			<div class="text-yellow md:hidden p-4 rounded-md block sm:hidden">
-				A / D Movement
-				Space Jump
-				E Interact
-				Click Attack
-				Q Roll
-			</div>
+			</div>			
+			
+			
 			<div class="w-full block">
 				<!-- hidden sm:block"> -->
 				<img
@@ -62,7 +57,30 @@
 					class="ml-auto h-16 w-16 cursor-pointer"
 					@click="setFullscreen" />
 			</div>
+
+
+			<!-- SMALL MODE ONLY -->
+			<div class="text-sm font-regular text-white leading-6 md:hidden p-4 rounded-md block sm:hidden">
+				Landing on your favorite app store soon!
+			</div>
+
+			<!-- Controls -->
+			<div class="text-sm leading-6 p-4 rounded-md hidden sm:block">
+				<ul>
+				<li>A / D Movement</li>
+				<li>Space Jump</li>
+				<li>E Interact</li>
+				<li>Click Attack</li>
+				<li>Q Roll</li>
+				</ul>
+			</div>
+
+
+
 		</div>
+
+
+
 	</section>
 </template>
 
