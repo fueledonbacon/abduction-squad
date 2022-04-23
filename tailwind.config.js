@@ -5,14 +5,18 @@ module.exports = {
     extend: {
       fontFamily: {
         'flyingSausage': ['flying-sausage'], 
-        'spmono': ['space-mono']
+        'spmono': ['space-mono'],
+        'poppins': ['Poppins']
       },
       colors: {
         'yellow':'#D7DF22'
       },
       maxHeight: {
         '192': '40rem',
+        '168': '42rem',
+
       }
+      
     },
   },
   plugins: [],

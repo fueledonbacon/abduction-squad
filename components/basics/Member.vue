@@ -1,43 +1,53 @@
 <template>  
-	<div
-					class="
-						flex flex-row flex-wrap justify-center
-					">
-						<!-- sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0
-						lg:grid-cols-5  -->
-  		<div
-         v-for="member in members"
-      :key="member.key"
-     class="space-y-6 text-center lg:mx-4 md:ml-16">
-						<div class="relative w-32 h-32 p-2 mx-auto md:w-48 md:h-48">
-							<img
-								class="relative z-20 w-full h-full rounded-full hover:border-2 transition ease-in-out delay-150   duration-300 hover:border-yellow hover:p-2  "
+	<div class="flex flex-row flex-wrap justify-center  space-y-8">
+
+  		<div 	v-for="member in members" :key="member.key"
+    				class="member w-full md:w-2/12 space-y-2 lg:mx-4 md:ml-16">
+						<!-- user pic -->
+						<div class="w-36 h-36 p-2 mx-auto md:w-48 md:h-48">
+							<img class="w-full h-full rounded-full hover:border-2 transition ease-in-out delay-150   duration-300 hover:border-yellow hover:p-2 "
 								:src="member.pic"
 								alt="" />
 						</div>
-						<div class="space-y-2">
-							<div class="space-y-1 text-lg font-medium leading-6">
-								<h3 class="text-yellow">{{member.name}}</h3>
-								<p  class="font-spmono text-white whitespace-pre" v-html="member.Role"></p>
-							</div>
-							<div class="relative flex items-center justify-center space-x-3">
-								<a target="_newblank" :href="member.twitter" v-if="member.twitter"   class="text-gray-300 hover:text-gray-400">
-                  <font-awesome-icon :icon="['fab','twitter']" />
+
+
+						<div class="member_info text-lg font-medium leading-6">
+							<h3 class="font-[oswald-medium] text-yellow">{{member.name}}</h3>
+							<p  class="text-sm  font-spmono text-white whitespace-pre" v-html="member.Role"></p>
+									
+									<!-- social -->
+							<div class="member_info-social">
+								<a target="_newblank" :href="member.twitter" v-if="member.twitter"   class="text-white hover:text-yellow">
+									<font-awesome-icon :icon="['fab','twitter']" />
 								</a>
 
-								<a :href="member.in" v-if="member.in" class="text-gray-300 hover:text-gray-400">
+								<a :href="member.in" v-if="member.in" class="text-white hover:text-yellow">
 									<font-awesome-icon :icon="['fab','linkedin']" />
 								</a>
 
-								<a :href="member.website" v-if="member.website" class="text-gray-300 hover:text-gray-400">
+								<a :href="member.website" target="_blank" v-if="member.website" class="text-white hover:text-yellow">
 									<font-awesome-icon :icon="['fas','link']" />
 								</a>
 							</div>
+
+						
 						</div>
 					</div>
 </div>
 </template>
+<style scoped>
+	.member{
+		@apply flex flex-col justify-around;
 
+	}
+ .member_info {
+		@apply text-center space-y-2
+	}
+	.member_info-social {
+		@apply space-x-4 text-xl
+	}
+
+</style>
 <script>
 export default {
   props: {

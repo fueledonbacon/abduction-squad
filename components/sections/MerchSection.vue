@@ -7,9 +7,10 @@
 			 <source src="@/assets/videos/bg-black.mp4" > 
 		</video>
 
-    <div class="md:absolute    md:flex-row align-end h-full w-full py-8 md:pt-12 px-8 m-auto  top-0 left-0 z-30">
+    <div class="md:absolute    md:flex-row align-end h-full w-full py-16 md:pt-16 md:pb-0 px-8 m-auto  top-0 left-0 z-30">
         <h3
 						class="
+              mb-4 sm:mb-0
 							text-4xl
               md:text-6xl
               font-flyingSausage 
@@ -21,21 +22,21 @@
             TRAIT <span class="text-white text-3xl md:text-5xl font-[oswald-medium]">PRIZES</span>
 					</h3>
           <div class="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8 mt-2  md:mt-0 justify-items-center h-[inherit]">
-            <div class="flex md:flex-row flex-col items-center text-center">
+            <div class="alien-obj">
               <img class="md:self-end" src="@/assets/images/merch/bodyMerch.png" alt="" >
               <div>
                 <h4 class="tracking-[2px] text-2xl font-sans leading-none">AS MERCH:</h4>
                 <p class="font-light text-2xl text-yellow font-[space-mono]"> Squad Merch</p>
               </div>
             </div>
-               <div class="flex md:flex-row flex-col items-center text-center">
+               <div class="alien-obj">
               <img class="md:self-end" src="@/assets/images/merch/bodyEth.png" alt="" >
               <div>
                 <h4 class="tracking-[2px] text-2xl font-sans leading-none">ETH EYES:</h4>
                 <p class="font-light text-2xl text-yellow font-[space-mono]"> ETH</p>
               </div>
             </div>
-               <div class="flex md:flex-row flex-col items-center text-center">
+               <div class="alien-obj">
               <img class="md:self-end"  src="@/assets/images/merch/bodyVr.png" alt="" >
               <div>
                 <h4 class="tracking-[2px] text-2xl font-sans leading-none">VR VISOR:</h4>
@@ -52,3 +53,8 @@
 
 	</section>
 </template>
+<style scoped>
+.alien-obj{
+  @apply flex h-max md:flex-row flex-col items-center text-center self-end
+}
+</style>
