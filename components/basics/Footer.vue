@@ -2,7 +2,7 @@
 
 
 <!-- Section 1 -->
-<footer class="text-center bg-black">
+<footer class="text-center bg-black py-12">
 <div class="flex flex-col items-center justify-center px-5 py-20 mx-auto max-w-7xl md:px-0">
         <div class="relative">
             <h1 class="relative text-1xl font-black text-white">
@@ -12,7 +12,7 @@
 
         <div class="hidden  flex-col justify-center w-full mt-5 space-y-3 sm:space-x-3 sm:space-y-0 sm:flex-row lg:mt-8">
             <input type="text" class="border-0 border-b border-yellow container inline-block h-12 px-3 overflow-visible text-base font-semibold text-gray-700 bg-transparent  border-solid rounded-sm sm:max-w-xs lg:max-w-sm focus:outline-none cursor-text md:text-left focus:ring-2" placeholder="Your email address">
-            <PillButton> SUBMIT</PillButton>
+            <PillButton> SUBMIT             <font-awesome-icon :icon="['fas','chevron-right']"  /> </PillButton>
         </div>
         
 				<div class="flex justify-center space-x-6 my-6 text-white text-2xl md:mt-4">

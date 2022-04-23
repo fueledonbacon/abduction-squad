@@ -6,19 +6,13 @@
 
 		<div
 			class="
-				w-full
-				pt-10 pb-20 md:py-20
+				bg-black/[0.95]
+				w-full mx-auto
+				space-y-12  md:py-20 pb-20  md:px-16 sm:px-12 xl:px-12
 				flex flex-row
-				space-y-12
-				md:px-16
-				mx-auto
-				leading-6
-				text-left
-				sm:px-12
-				xl:px-12
-				bg-gray-900/[.9]
+				leading-6 text-left
 			">
-			<div class="relative w-full px-4 text-center font-spmono space-y-8">
+			<div class=" w-full px-4 text-center font-spmono space-y-10">
 				<div class="md:w-1/2 mx-auto box-border text-sm font-regular text-white leading-6 ">
 					<p>
 						Our primary focus is a play-to-win style game with out-of-this-world
@@ -28,11 +22,11 @@
 						<br /> <br>
 						In addition to Abduction Squad holders having a dope, high-resolution PFP,
 						holders will also receive rewards depending on the traits they acquire.
-					</p>
-  <br>
+					</p> <br>
+
 				</div>
-  
-        <span class="text-yellow"> Intergalactic Community, Extrasensory Art.  </span>
+
+        <span class="text-yellow my-2"> Intergalactic Community, Extrasensory Art.  </span>
 
 
 				<div class="overflow-hidden w-full md:w-1/2 mx-auto   ">

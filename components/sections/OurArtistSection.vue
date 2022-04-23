@@ -23,7 +23,7 @@
 
   <img class="absolute bottom-0 left-0  md:left-1/2 md:w-2/3 z-10 w-full" src="@/assets/images/lazer_eyes.png"  />
 
-  <img class="absolute bottom-0 left-16 md:left-20 md:w-2/3 w-full" src="@/assets/images/drool.png"/>
+  <img class="absolute bottom-0 left-16 md:left-22 md:w-2/3 w-full" src="@/assets/images/drool.png"/>
 
 </div>
 

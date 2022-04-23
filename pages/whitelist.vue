@@ -4,15 +4,16 @@
 			class="
         overflow-hidden
 				w-full
-				smm:h-screen
-				sm:min-h-[56vw]
+				sm:h-screen
+				h-full
 				bg-cover bg-center
 				antialiased
 				bg-no-repeat
 			">
-      <div class="absolute -z-0 w-full h-full min-h-[inherit] top-0 bg-gray-900/[.9] min-h-full "></div>
+			<div class="absolute -z-0 w-full h-full  top-0 bg-black/[.95] min-h-full ">
+			</div>
 			<div class="mx-auto max-w-7xl">
-				<div class="container py-32 mx-auto text-center sm:px-4">
+				<div class="absolute left-0 container mt-40 mx-auto text-center sm:px-4">
 					<h1
 						class="
 							text-4xl
@@ -23,9 +24,10 @@
 							sm:text-5xl sm:leading-none
 							md:text-6xl
 							xl:text-7xl
+							upppercase
 						">
 						<span class="block text-white opacity-90 ">Verify you're on the </span>
-						<span class="relative inline-block mt-3 text-yellow">whitelist.</span>
+						<span class="relative inline-block mt-3 text-yellow font-flyingSausage">SPACELIST.</span>
 					</h1>
 					<div
 						class="
@@ -38,61 +40,23 @@
 							sm:text-base
 							md:max-w-xl md:text-lg
 							xl:text-xl
+							spmono
 						">
 						Enter your Ethereum address or ENS name to confirm that you're on our
 						whitelist for the launch!
 					</div>
-					<div
-						class="
-							relative
-							flex
-							items-center
-							max-w-xl
-							mx-auto
-							mt-12
-							overflow-hidden
-							text-center
-							rounded-sm
-						">
-						<input
-							type="text"
+			
+	 <div class="  flex-col justify-center w-full mt-5 space-y-3 sm:space-x-3 sm:space-y-0 sm:flex-row lg:mt-8">
+
+						
+					<input type="text" 
 							placeholder="0x1...123 or ENS"
 							v-model="address"
-							@input="ensListener"
-							class="
-								w-full
-								h-12
-								px-6
-								py-2
-								font-medium
-								focus:outline-none
-								text-gray-600
-							" />
-						<span class="relative top-0 right-0 block">
-							<button
-								type="button"
-								class="
-									inline-flex
-									items-center
-									w-32
-									h-12
-									px-8
-									text-base
-									font-bold
-									leading-6
-									text-black
-									transition
-									duration-150
-									ease-in-out
-									bg-yellow
-									border border-transparent
-								hover:bg-slate-700
-			          hover:text-yellow
-								"
-								@click="ensListener($event, true)">
-								Verify
-							</button>
-						</span>
+							@input="ensListener" class="--tw-ring-offset-shadow:0 active:boder-0 text-white border-0 border-b border-yellow container inline-block h-12 px-3 overflow-visible text-base font-semibold  bg-transparent  border-solid rounded-sm sm:max-w-xs lg:max-w-sm focus:outline-none cursor-text md:text-left focus:ring-2" >
+
+							<PillButton 	@click="ensListener($event, true)" > VERIFY   <font-awesome-icon :icon="['fas','chevron-right']"  /> </PillButton>
+							
+
 					</div>
 					<div
 						v-if="message"
@@ -103,6 +67,7 @@
 					</div>
 				</div>
 			</div>
+
 		</section>
 	</main>
 </template>
@@ -163,7 +128,7 @@ export default {
 			}
 		},
 		onWhitelist() {
-			return whitelist.includes(this.address.toLowerCase())
+			return whitelist.includes(this.address)
 		},
 
 		verify() {
