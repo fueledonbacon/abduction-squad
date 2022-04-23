@@ -7,8 +7,8 @@
       <SectionsMerchSection/>
       <SectionsCTASection/>
       <SectionsOurArtistSection/>
-      <SectionsTeamSection/>
       <SectionsRoadmapSection/>
+      <SectionsTeamSection/>
     </main>
   </div>
 </template>
