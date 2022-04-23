@@ -1,18 +1,19 @@
 <template>
-	<section class="relative bg-lionz-purple" id="game-section">
+	<section class="relative bg-black" id="game-section">
 		<h2 class="mb-2 flex justify-center">
-			<!-- TODO: change this to the right title when available -->
+			<!-- TODO: change this to the right title when available
 			<img
 				data-aos="fade-down"
 				class="h-16"
 				src="@/assets/images/image1.webp"
 				alt="FAQ" />
+				 -->
 		</h2>
 
 		<div class="flex justify-center">
 			<div class="max-w-2xl">
-				<p class="leading-loose text-lionz-yellow mb-5 text-shadow-xl">
-					Play the first of many metajungle games and experiences right now, right here!
+				<p class="leading-loose text-yellow mb-5 text-shadow-xl">
+					Play Alpha Now!
 				</p>
 			</div>
 		</div>
@@ -24,7 +25,7 @@
 					class="
 						w-full
 						md:w-[960px] md:h-[600px]
-						text-lionz-yellow
+						text-yellow
 						bg-[url(/Build/webgl.jpg)] bg-cover bg-center
 					"></canvas>
 				<div
@@ -40,15 +41,19 @@
 					<div class="w-full">
 						<div
 							id="unity-progress-bar-full"
-							class="h-8 bg-lionz-accent"
+							class="h-8 bg-yellow"
 							:style="{ width: progressBarPercent }"></div>
 					</div>
 				</div>
 			</div>
 
 			<!-- SMALL MODE ONLY -->
-			<div class="text-lionz-yellow md:hidden p-4 rounded-md block sm:hidden">
-				Play on Desktop - Coming soon to Google Play Store
+			<div class="text-yellow md:hidden p-4 rounded-md block sm:hidden">
+				A / D Movement
+				Space Jump
+				E Interact
+				Click Attack
+				Q Roll
 			</div>
 			<div class="w-full block">
 				<!-- hidden sm:block"> -->
@@ -86,8 +91,8 @@ export default {
 			codeUrl: '/Build/webgl.wasm',
 			streamingAssetsUrl: '/StreamingAssets',
 			companyName: 'Fueled on Bacon',
-			productName: 'fob-cyberlionz-runner',
-			productVersion: '0.1.4',
+			productName: 'Abduction Squad Catalyst',
+			productVersion: '0.1.3',
 			showBanner: this.unityShowBanner,
 			showLoadingBar: true,
 		}
