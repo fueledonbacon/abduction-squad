@@ -8,7 +8,7 @@
 				 class="font-flyingSausage w-2/12 sm:flex  text-yellow text-8xl">
 				{{ item.title }}
 			</h5>
-      <h3  style="font-family:'space-mono'" class="text-white whitespace-pre">{{item.texts}}
+      <h3   class="text-white whitespace-pre text-sm leading-6 font-spmono">{{item.texts}}
       </h3>
 
 		</div>

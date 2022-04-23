@@ -3,7 +3,7 @@
 
 <!-- Section 1 -->
 <footer class="text-center bg-black py-12">
-<div class="flex flex-col items-center justify-center px-5 py-20 mx-auto max-w-7xl md:px-0">
+<div class="flex flex-col items-center justify-center px-5  mx-auto max-w-7xl md:px-0">
         <div class="relative">
             <h1 class="relative text-1xl font-black text-white">
               GET <span class="text-yellow">ABDUCTED</span>

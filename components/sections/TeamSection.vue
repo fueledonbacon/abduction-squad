@@ -7,7 +7,7 @@
 				w-full 
 				mx-auto py-16
 				space-y-12   md:px-16 sm:px-12 xl:px-12
-				flex flex-row
+				flex flex-col
 				leading-6 text-left"
 		
 		>
