@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="min-h-screen w-full  text-white">
+  <div id="app" class="pt-16 min-h-screen w-full bg-black  text-white">
     <main class="w-full">
         <GameComponent />
     </main>

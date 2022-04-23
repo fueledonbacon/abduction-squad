@@ -12,7 +12,7 @@
 		<div class="flex justify-center">
 			<div class="max-w-2xl">
 				<p class="leading-loose text-lionz-yellow mb-5 text-shadow-xl">
-					Play the first of many metajungle games and experiences right now, right here!
+					Play the first of many abduction games and experiences right now, right here!
 				</p>
 			</div>
 		</div>
