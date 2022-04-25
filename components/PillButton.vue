@@ -12,6 +12,7 @@
 				font-poppins
 				text-black
 				bg-yellow hover:bg-black hover:text-yellow
+				hover:shadow-sm shadow-yellow
 				border border-transparent rounded-sm 
 				inline-flex items-center h-12 px-8
 				transition duration-150 ease-in-out
