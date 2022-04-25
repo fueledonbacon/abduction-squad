@@ -10,14 +10,23 @@
 				 
 		</h2> -->
 
-		<div class="flex justify-center">
-			<div class="max-w-2xl">
+		<div class="md:relative    md:flex-row align-end h-full w-full py-16 md:pt-16 md:pb-0 px-8 m-auto  top-0 left-0 z-30">
 				
-					<h2 class="text-yellow mb-2 flex justify-center">
-					ALPHA
-					</h2>
+					<h3
+						class="
+              				mb-10 sm:mb-0
+							py-3
+							text-4xl
+              				md:text-6xl
+              				font-flyingSausage 
+							leading-none
+							lg:leading-7
+							text-center text-yellow
+							tracking-[2px]
+						">
+            Play <span class="text-white text-3xl md:text-5xl font-[oswald-medium]">ALPHA</span>
+					</h3>
 				
-			</div>
 		</div>
 
 		<div class="flex flex-col items-center mx-auto md:w-[960px]">
@@ -60,12 +69,12 @@
 
 
 			<!-- SMALL MODE ONLY -->
-			<div class="text-sm font-regular text-white leading-6 md:hidden p-4 rounded-md block sm:hidden">
+			<div class="text-sm font-spmono font-regular text-white leading-6 md:hidden p-4 rounded-md block sm:hidden">
 				Landing on your favorite app store soon!
 			</div>
 
 			<!-- Controls -->
-			<div class="text-sm leading-6 p-4 rounded-md hidden sm:block">
+			<div class="text-sm font-spmono leading-6 p-4 rounded-md hidden sm:block">
 				<ul>
 				<li>A / D Movement</li>
 				<li>Space Jump</li>
