@@ -13,7 +13,8 @@
             </p>
         </div>
 
-        <form class="grid max-w-2xl gap-4 mx-auto sm:grid-cols-3">
+        <form name="bussiness" method="POST" data-netlify="true"  data-netlify-recaptcha="true" class="grid max-w-2xl gap-4 mx-auto sm:grid-cols-3">
+
             <div>
                 <label for="first-name" class="inline-block mb-2 text-sm font-medium text-white sm:text-base">First name: * </label>
                 <input name="first-name" required class="w-full px-3 py-2 text-white transition duration-100 border  outline-none bg-transparent focus:ring-1 ring-yellow">
@@ -35,7 +36,7 @@
             </div>
 
             <div class="flex items-center justify-end sm:col-span-3">
-		            <PillButton @click.native="connectWallet">SUBMIT</PillButton>
+		            <PillButton>SUBMIT</PillButton>
             </div>
         </form>
         <!-- <p class="max-w-3xl mx-auto mt-5 text-xs text-gray-400">
