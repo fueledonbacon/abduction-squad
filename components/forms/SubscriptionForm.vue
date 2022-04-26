@@ -13,7 +13,7 @@
             </p>
         </div>
 
-        <form name="bussiness-list" method="POST" netlify netlify-honeypot="bot-field"  class="grid max-w-2xl gap-4 mx-auto sm:grid-cols-3">
+        <form netlify name="bussiness-list" method="POST"  netlify-honeypot="bot-field"  class="grid max-w-2xl gap-4 mx-auto sm:grid-cols-3">
             <input type="hidden" name="form-name" value="bussiness-list" />
 
             <div>
@@ -37,7 +37,7 @@
             </div>
 
             <div class="flex items-center justify-end sm:col-span-3">
-		            <PillButton>SUBMIT</PillButton>
+                <button class="btn-submit" type="submit">SUBMIT</button>
             </div>
         </form>
         <!-- <p class="max-w-3xl mx-auto mt-5 text-xs text-gray-400">
@@ -58,3 +58,20 @@ export default {
   }
 }
 </script>
+<style scoped>
+.btn-submit {
+	@apply 	font-poppins
+				text-black
+				bg-yellow hover:bg-black hover:text-yellow
+				hover:shadow-sm shadow-yellow
+				border border-transparent rounded-sm 
+				inline-flex items-center h-12 px-8
+				transition duration-150 ease-in-out
+				focus:outline-none 
+				
+
+
+
+}
+
+</style>

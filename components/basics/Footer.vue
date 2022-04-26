@@ -19,7 +19,7 @@
             <input type="hidden" name="form-name" value="subscribers-list" />
 
             <input type="text" class="border-0 border-b border-yellow container inline-block h-12 px-3 overflow-visible text-sm font-spmono text-gray-700 bg-transparent  border-solid rounded-sm sm:max-w-xs lg:max-w-sm focus:outline-none cursor-text md:text-left focus:ring-2" placeholder="Your email address">
-            <PillButton> SUBMIT             <font-awesome-icon :icon="['fas','chevron-right']"  /> </PillButton>
+               <button type="submit" class="btn-submit"> SUBMIT             <font-awesome-icon :icon="['fas','chevron-right']"  /> </button>
             </form>
         </div>
         
@@ -41,6 +41,7 @@
 
 
 </template>
+
 <script>
 export default {
   data() {
@@ -53,3 +54,21 @@ export default {
   }
 }
 </script>
+<style scoped>
+.btn-submit {
+	@apply 
+				font-poppins
+				text-black
+				bg-yellow hover:bg-black hover:text-yellow
+				hover:shadow-sm shadow-yellow
+				border border-transparent rounded-sm 
+				inline-flex items-center h-12 px-8
+				transition duration-150 ease-in-out
+				focus:outline-none 
+				
+
+
+
+}
+
+</style>
