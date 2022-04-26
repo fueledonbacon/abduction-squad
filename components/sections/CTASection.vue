@@ -9,7 +9,7 @@
            <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl font-[oswald-medium]">
               <span class="block text-white">MINTING APRIL 28 2022.</span>
             </h2>
-
+                  <BasicsCountdown end=1652158800000 />
             <p class="">
               Join our Discord where we host games and trivia, share alpha, and secure your spot on our whitelist.
             </p>

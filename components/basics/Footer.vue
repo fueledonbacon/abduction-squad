@@ -14,7 +14,7 @@
             </h1>
         </div>
 
-        <div class="  flex-col justify-center w-2/3 mt-5 space-y-3 sm:space-x-3 sm:space-y-0 sm:flex-row lg:mt-8">
+        <div class="flex-col justify-center w-2/3 mt-5 space-y-3 sm:space-x-3 sm:space-y-0 sm:flex-row lg:mt-8">
             <form    
             netlify
             action="/"
@@ -22,8 +22,8 @@
             name="subscribers">
             <input type="hidden" name="form-name" value="subscribers" />
 
-            <input name="email" type="email" class="border-0 border-b border-yellow container inline-block h-12 px-3 overflow-visible text-sm font-spmono text-gray-700 bg-transparent  border-solid rounded-sm sm:max-w-xs lg:max-w-sm focus:outline-none cursor-text md:text-left focus:ring-2" placeholder="Your email address">
-               <button type="submit" class="btn-submit"> SUBMIT             <font-awesome-icon :icon="['fas','chevron-right']"  /> </button>
+            <input name="email" type="email" class="border-0 border-b border-yellow container inline-block h-12 px-3 overflow-visible text-sm font-spmono  bg-transparent  border-solid rounded-sm sm:max-w-xs lg:max-w-sm focus:outline-none cursor-text md:text-left focus:ring-2 text-white" placeholder="Your email address">
+               <button type="submit" class="btn-submit hover:shadow-md hover:shadow-yellow shadow-inner"> SUBMIT             <font-awesome-icon :icon="['fas','chevron-right']"  /> </button>
             </form>
         </div>
         
@@ -64,7 +64,7 @@ export default {
 				font-poppins
 				text-black
 				bg-yellow hover:bg-black hover:text-yellow
-				hover:shadow-sm shadow-yellow
+	hover:shadow-md hover:shadow-yellow shadow-inner
 				border border-transparent rounded-sm 
 				inline-flex items-center h-12 px-8
 				transition duration-150 ease-in-out

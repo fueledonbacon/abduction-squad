@@ -42,7 +42,7 @@
             </div>
 
             <div class="flex items-center justify-end sm:col-span-3">
-                <button class="btn-submit" type="submit">SUBMIT</button>
+                <button class="btn-submit " type="submit">SUBMIT</button>
             </div>
         </form>
         <!-- <p class="max-w-3xl mx-auto mt-5 text-xs text-gray-400">
@@ -68,7 +68,7 @@ export default {
 	@apply 	font-poppins
 				text-black
 				bg-yellow hover:bg-black hover:text-yellow
-				hover:shadow-sm shadow-yellow
+				hover:shadow-md hover:shadow-yellow shadow-inner
 				border border-transparent rounded-sm 
 				inline-flex items-center h-12 px-8
 				transition duration-150 ease-in-out
