@@ -13,7 +13,7 @@
             </p>
         </div>
 
-        <form name="bussiness-list" method="POST" data-netlify="true"  data-netlify-recaptcha="true" class="grid max-w-2xl gap-4 mx-auto sm:grid-cols-3">
+        <form name="bussiness-list" method="POST" netlify netlify-honeypot="bot-field"  class="grid max-w-2xl gap-4 mx-auto sm:grid-cols-3">
             <input type="hidden" name="form-name" value="bussiness-list" />
 
             <div>
