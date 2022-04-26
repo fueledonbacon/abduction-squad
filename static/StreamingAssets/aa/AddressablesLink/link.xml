@@ -24,17 +24,17 @@
     <type fullname="UnityEngine.MeshRenderer" preserve="all" />
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
     <type fullname="UnityEngine.Mesh" preserve="all" />
-    <type fullname="UnityEngine.ComputeShader" preserve="all" />
     <type fullname="UnityEngine.RenderTexture" preserve="all" />
     <type fullname="UnityEngine.TrailRenderer" preserve="all" />
     <type fullname="UnityEngine.Light" preserve="all" />
     <type fullname="UnityEngine.LineRenderer" preserve="all" />
-    <type fullname="UnityEngine.FlareLayer" preserve="all" />
     <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
     <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
-    <type fullname="UnityEngine.ReflectionProbe" preserve="all" />
     <type fullname="UnityEngine.LightProbes" preserve="all" />
     <type fullname="UnityEngine.LightingSettings" preserve="all" />
+    <type fullname="UnityEngine.Cubemap" preserve="all" />
+    <type fullname="UnityEngine.LODGroup" preserve="all" />
+    <type fullname="UnityEngine.ReflectionProbe" preserve="all" />
     <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
@@ -103,12 +103,11 @@
     <type fullname="Invector.vSliderSizeControl" preserve="all" />
     <type fullname="Michsky.UI.Shift.MainPanelButton" preserve="all" />
     <type fullname="Michsky.UI.Shift.UIManagerImage" preserve="all" />
-    <type fullname="MoreMountains.InfiniteRunnerEngine.AddressableSceneLoader" preserve="all" />
+    <type fullname="AddressableSceneLoader" preserve="all" />
     <type fullname="Michsky.UI.Shift.LayoutGroupPositionFix" preserve="all" />
     <type fullname="Invector.vItemManager.vAmmoManager" preserve="all" />
     <type fullname="Invector.vShooter.vLaserSight" preserve="all" />
     <type fullname="Invector.vItemManager.vChangeInputTypeTrigger" preserve="all" />
-    <type fullname="Invector.vHealthItem" preserve="all" />
     <type fullname="Invector.vShooter.vDecalManager" preserve="all" />
     <type fullname="Invector.vItemManager.vItem" preserve="all" />
     <type fullname="Invector.vCharacterController.vThrowManager" preserve="all" />
@@ -130,7 +129,6 @@
     <type fullname="vChangeAnimatorUpdateMode" preserve="all" />
     <type fullname="Invector.vShooter.vControlAimCanvas" preserve="all" />
     <type fullname="Invector.vItemManager.vSetFirstSelectable" preserve="all" />
-    <type fullname="Invector.vCharacterController.vActions.vTriggerLadderAction" preserve="all" />
     <type fullname="Invector.vMelee.vMeleeWeapon" preserve="all" />
     <type fullname="Invector.vShooter.vDrawHideShooterWeapons" preserve="all" />
     <type fullname="Invector.vItemManager.vItemCollection" preserve="all" />
@@ -138,7 +136,6 @@
     <type fullname="Invector.vCharacterController.vRagdoll" preserve="all" />
     <type fullname="Invector.vMelee.vHitEffects" preserve="all" />
     <type fullname="Invector.vCamera.vThirdPersonCamera" preserve="all" />
-    <type fullname="Invector.vCharacterController.vJumpMultiplierTrigger" preserve="all" />
     <type fullname="Invector.vRotateObject" preserve="all" />
     <type fullname="Invector.vItemManager.vWeaponHolderManager" preserve="all" />
     <type fullname="Invector.vMelee.vHitBox" preserve="all" />
@@ -149,14 +146,12 @@
     <type fullname="Invector.vShooter.vAimCanvas" preserve="all" />
     <type fullname="Invector.vEventSystems.vAnimatorTag" preserve="all" />
     <type fullname="Invector.vShooter.vShooterWeapon" preserve="all" />
-    <type fullname="Invector.vPendulum" preserve="all" />
     <type fullname="vSnapToBody" preserve="all" />
     <type fullname="vSetPlayer2_5Path" preserve="all" />
     <type fullname="Invector.vCharacterController.v2_5D.v2_5DController" preserve="all" />
-    <type fullname="Invector.vSpikeControl" preserve="all" />
-    <type fullname="Invector.vAnimateUV" preserve="all" />
     <type fullname="Invector.vCharacterController.vActions.vTriggerGenericAction" preserve="all" />
     <type fullname="Invector.Utils.vComment" preserve="all" />
+    <type fullname="SciFiArsenal.SciFiRotation" preserve="all" />
     <type fullname="Invector.vMelee.vMeleeManager" preserve="all" />
     <type fullname="Invector.vItemManager.vItemCollectionDisplay" preserve="all" />
     <type fullname="Invector.vCharacterController.v2_5D.v2_5DPath" preserve="all" />
@@ -164,7 +159,6 @@
     <type fullname="Invector.vItemManager.vItemCollectionTextHUD" preserve="all" />
     <type fullname="vJoystickMouseInput" preserve="all" />
     <type fullname="Invector.vItemManager.vOpenCloseInventoryTrigger" preserve="all" />
-    <type fullname="Invector.vSpike" preserve="all" />
     <type fullname="Invector.vEventSystems.vAnimatorEventReceiver" preserve="all" />
     <type fullname="Invector.vEventSystems.vAnimatorEvent" preserve="all" />
     <type fullname="Invector.vShooter.vProjectileControl" preserve="all" />
@@ -174,11 +168,9 @@
     <type fullname="Invector.vMelee.vMeleeAttackObject" preserve="all" />
     <type fullname="vRemoveParent" preserve="all" />
     <type fullname="Invector.vBodySnappingControl" preserve="all" />
-    <type fullname="Invector.vPlatform" preserve="all" />
     <type fullname="Invector.vFootStepTrigger" preserve="all" />
     <type fullname="vSimpleInput" preserve="all" />
     <type fullname="Invector.vAutoScrollVertical" preserve="all" />
-    <type fullname="Invector.vFootStepHandler" preserve="all" />
     <type fullname="Invector.vCharacterController.vActions.vLadderAction" preserve="all" />
     <type fullname="Invector.vItemManager.vEquipSlot" preserve="all" />
     <type fullname="Invector.vPlayRandomClip" preserve="all" />
@@ -186,7 +178,6 @@
     <type fullname="Invector.vItemManager.vEquipAreaControl" preserve="all" />
     <type fullname="Invector.vItemManager.vInventory" preserve="all" />
     <type fullname="Invector.vCharacterController.vDamageReceiver" preserve="all" />
-    <type fullname="Invector.vLookTarget" preserve="all" />
     <type fullname="Invector.vShooter.vWeaponIKAdjust" preserve="all" />
     <type fullname="Invector.vItemManager.vAmmoListData" preserve="all" />
     <type fullname="Invector.vItemManager.vItemSlot" preserve="all" />
@@ -206,6 +197,25 @@
     <type fullname="Invector.vCharacterController.v2_5D.v2_5DShooterInput" preserve="all" />
     <type fullname="Invector.vCharacterController.vActions.vGenericAction" preserve="all" />
     <type fullname="Invector.vItemManager.vAmmoDisplay" preserve="all" />
+    <type fullname="ASSimpleSingleSceneLoader" preserve="all" />
+    <type fullname="Invector.vCharacterController.vOnDeadTrigger" preserve="all" />
+    <type fullname="Invector.vHealthItem" preserve="all" />
+    <type fullname="Invector.vGameController" preserve="all" />
+    <type fullname="Invector.vCharacterController.AI.vSimpleMeleeAI_Controller" preserve="all" />
+    <type fullname="Invector.vCharacterController.AI.vSimpleMeleeAI_SphereSensor" preserve="all" />
+    <type fullname="Invector.vCharacterController.vActions.vTriggerLadderAction" preserve="all" />
+    <type fullname="Invector.vHitDamageParticle" preserve="all" />
+    <type fullname="Invector.vCharacterController.vJumpMultiplierTrigger" preserve="all" />
+    <type fullname="Invector.vPendulum" preserve="all" />
+    <type fullname="Invector.vSpikeControl" preserve="all" />
+    <type fullname="Invector.vAnimateUV" preserve="all" />
+    <type fullname="Invector.vCharacterController.v_SpriteHealth" preserve="all" />
+    <type fullname="Invector.vSpike" preserve="all" />
+    <type fullname="vBodyStruct" preserve="all" />
+    <type fullname="Invector.vPlatform" preserve="all" />
+    <type fullname="Invector.vFootStepHandler" preserve="all" />
+    <type fullname="Invector.vLookTarget" preserve="all" />
+    <type fullname="GameManager" preserve="all" />
     <type fullname="Invector.IK.IKAdjust" preserve="nothing" serialized="true" />
     <type fullname="Invector.IK.IKOffsetSpine" preserve="nothing" serialized="true" />
     <type fullname="Invector.IK.IKOffsetTransform" preserve="nothing" serialized="true" />
@@ -250,14 +260,12 @@
     <type fullname="Invector.vItemManager.vCheckItemIsEquipped/CheckItemIDEvent" preserve="nothing" serialized="true" />
     <type fullname="Invector.vItemManager.vItemAttribute" preserve="nothing" serialized="true" />
     <type fullname="Invector.vItemManager.vItemSlot/AttributeDisplay" preserve="nothing" serialized="true" />
-    <type fullname="Invector.vLookTarget/OnLookEvent" preserve="nothing" serialized="true" />
     <type fullname="Invector.vMelee.HitProperties" preserve="nothing" serialized="true" />
     <type fullname="Invector.vMelee.OnEquipWeaponEvent" preserve="nothing" serialized="true" />
     <type fullname="Invector.vMelee.OnHitEnter" preserve="nothing" serialized="true" />
     <type fullname="Invector.vMelee.vBodyMember" preserve="nothing" serialized="true" />
     <type fullname="Invector.vMelee.vOnHitEvent" preserve="nothing" serialized="true" />
     <type fullname="Invector.vObjectDamage/OnHitEvent" preserve="nothing" serialized="true" />
-    <type fullname="Invector.vPlatform/vPlatformPoint" preserve="nothing" serialized="true" />
     <type fullname="Invector.vShooter.vBulletLifeSettings/vBulletLostLife" preserve="nothing" serialized="true" />
     <type fullname="Invector.vShooter.vDecalManager/DecalObject" preserve="nothing" serialized="true" />
     <type fullname="Invector.vShooter.vProjectileControl/ProjectileCastColliderEvent" preserve="nothing" serialized="true" />
@@ -272,6 +280,11 @@
     <type fullname="vJoystickMouseInput/JoystickAxisInput" preserve="nothing" serialized="true" />
     <type fullname="vProjectileInstantiateData" preserve="nothing" serialized="true" />
     <type fullname="vTagMask" preserve="nothing" serialized="true" />
+    <type fullname="Invector.vCharacterController.AI.vSimpleMeleeAI_Motor/CharacterTarget" preserve="nothing" serialized="true" />
+    <type fullname="Invector.vGameController/OnRealoadGame" preserve="nothing" serialized="true" />
+    <type fullname="Invector.vLookTarget/OnLookEvent" preserve="nothing" serialized="true" />
+    <type fullname="Invector.vPlatform/vPlatformPoint" preserve="nothing" serialized="true" />
+    <type fullname="vBodyStruct/Bone" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
@@ -291,15 +304,19 @@
     <type fullname="UnityEngine.Rendering.Universal.ChromaticAberration" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.Vignette" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.Tonemapping" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.ColorLookup" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.ColorAdjustments" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.TonemappingModeParameter" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="MoreMountains.Tools, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="MoreMountains.Tools.MMParallaxUI" preserve="all" />
+    <type fullname="MoreMountains.Tools.MMFader" preserve="all" />
+    <type fullname="MoreMountains.Tools.MMParallaxUI/ParallaxLayer" preserve="nothing" serialized="true" />
+    <type fullname="MoreMountains.Tools.MMTweenType" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityPlayModeSaver, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Framework.Utils.UnityPlayModeSaverSceneUtils" preserve="all" />
     <type fullname="Framework.Utils.UnityPlayModeSaverSceneUtils/PrefabInstance" preserve="nothing" serialized="true" />
-  </assembly>
-  <assembly fullname="MoreMountains.Tools, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="MoreMountains.Tools.MMFader" preserve="all" />
-    <type fullname="MoreMountains.Tools.MMTweenType" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
@@ -314,30 +331,13 @@
   </assembly>
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Rigidbody" preserve="all" />
-    <type fullname="UnityEngine.HingeJoint" preserve="all" />
     <type fullname="UnityEngine.MeshCollider" preserve="all" />
     <type fullname="UnityEngine.BoxCollider" preserve="all" />
     <type fullname="UnityEngine.PhysicMaterial" preserve="all" />
     <type fullname="UnityEngine.SphereCollider" preserve="all" />
     <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
     <type fullname="UnityEngine.CharacterJoint" preserve="all" />
-  </assembly>
-  <assembly fullname="Unity.Postprocessing.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Rendering.PostProcessing.PostProcessResources" preserve="all" />
-    <type fullname="UnityEngine.Rendering.PostProcessing.PostProcessLayer" preserve="all" />
-    <type fullname="UnityEngine.Rendering.PostProcessing.FastApproximateAntialiasing" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.PostProcessing.Fog" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.PostProcessing.HistogramMonitor" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.PostProcessing.LightMeterMonitor" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer/OverlaySettings" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.PostProcessing.PostProcessResources/ComputeShaders" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.PostProcessing.PostProcessResources/SMAALuts" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.PostProcessing.PostProcessResources/Shaders" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.PostProcessing.SubpixelMorphologicalAntialiasing" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.PostProcessing.TemporalAntialiasing" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.PostProcessing.VectorscopeMonitor" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.PostProcessing.WaveformMonitor" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.HingeJoint" preserve="all" />
   </assembly>
   <assembly fullname="Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Rendering.VolumeProfile" preserve="all" />
@@ -349,6 +349,7 @@
     <type fullname="UnityEngine.Rendering.MinFloatParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.TextureParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Vector2Parameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.FloatParameter" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.ClothModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Cloth" preserve="all" />
@@ -360,6 +361,10 @@
   <assembly fullname="UnityEngine.VideoModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Video.VideoPlayer" preserve="all" />
     <type fullname="UnityEngine.Video.VideoClip" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AI.NavMeshAgent" preserve="all" />
+    <type fullname="UnityEngine.AI.NavMeshData" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextCoreModule">
     <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
