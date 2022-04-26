@@ -22,7 +22,7 @@
 					md:pt-16
 					mx-auto
 				">
-				<img class="w-xl md:w-2xl " src="@/assets/images/image1.webp" alt="" />
+				<img class="w-xl md:w-2xl " src="@/assets/images/alienhome.webp" alt="" />
 			</div>
 			<div
 				class="
