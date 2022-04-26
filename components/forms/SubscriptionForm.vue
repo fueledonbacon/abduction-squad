@@ -14,11 +14,12 @@
         </div>
 
         <form   class="grid max-w-2xl gap-4 mx-auto sm:grid-cols-3"
-            netlify
-            action="/"
-            method="POST"
-            name="bussiness">>
-            <input type="hidden" name="form-name" value="bussiness" />
+       
+        method="POST"
+        name="bussiness"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field">
+    <input type="hidden" name="form-name" value="bussiness" />
 
             <div>
                 <label for="first-name" class="inline-block mb-2 text-sm font-medium text-white sm:text-base">First name: * </label>

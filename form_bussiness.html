@@ -4,7 +4,15 @@
     {{ HEAD }}
   </head>
   <body {{ BODY_ATTRS }}>
-  <form name="bussiness" netlify netlify-honeypot="bot-field" hidden>
+    {{ APP }}
+
+    <form
+      hidden
+      netlify
+      method="POST"
+      name="bussiness"
+      netlify-honeypot="bot-field"
+    >
       <input name="first-name" >
       <input name="last-name" required   >
       <input name="email">
