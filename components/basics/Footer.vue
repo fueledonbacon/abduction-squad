@@ -22,7 +22,7 @@
             name="subscribers">
             <input type="hidden" name="form-name" value="subscribers" />
 
-            <input type="text" class="border-0 border-b border-yellow container inline-block h-12 px-3 overflow-visible text-sm font-spmono text-gray-700 bg-transparent  border-solid rounded-sm sm:max-w-xs lg:max-w-sm focus:outline-none cursor-text md:text-left focus:ring-2" placeholder="Your email address">
+            <input name="email" type="email" class="border-0 border-b border-yellow container inline-block h-12 px-3 overflow-visible text-sm font-spmono text-gray-700 bg-transparent  border-solid rounded-sm sm:max-w-xs lg:max-w-sm focus:outline-none cursor-text md:text-left focus:ring-2" placeholder="Your email address">
                <button type="submit" class="btn-submit"> SUBMIT             <font-awesome-icon :icon="['fas','chevron-right']"  /> </button>
             </form>
         </div>
