@@ -5,7 +5,7 @@
     				class="member w-full md:w-2/12 space-y-2 lg:mx-4 md:ml-16">
 						<!-- user pic -->
 						<div class="w-36 h-36 p-2 mx-auto md:w-48 md:h-48">
-							<img class="w-full h-full rounded-full hover:border-2 transition ease-in-out delay-150   duration-300 hover:border-yellow hover:p-2 "
+							<img class="w-full h-full rounded-full hover:border-2 transition ease-in-out delay-150   duration-300 hover:border-yellow hover:p-2  hover:shadow-md hover:shadow-yellow shadow-inner"
 								:src="member.pic"
 								alt="" />
 						</div>
