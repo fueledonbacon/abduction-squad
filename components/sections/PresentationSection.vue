@@ -53,7 +53,7 @@
 				</p>
         <br>
 				<div class="w-2/3">
-					<PillButton @click.native="null">ABDUCTION PROTOCOL&nbsp;<font-awesome-icon :icon="['fas','chevron-right']"  /></PillButton>
+					<PillButton @click.native="downloadPdf">ABDUCTION PROTOCOL&nbsp;<font-awesome-icon :icon="['fas','chevron-right']"  /></PillButton>
 				</div>
 			</div>
     
@@ -63,3 +63,18 @@
 
 	</section>
 </template>
+<script>
+export default {
+	data() {
+		return {
+			documentUri:"/Abduction-Protocol-compressed.pdf"
+		}
+	},
+	methods: {
+		downloadPdf(){
+       window.open(this.documentUri, '_blank').focus();
+
+		}
+	},
+}
+</script>

@@ -9,13 +9,13 @@
            <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl font-[oswald-medium]">
               <span class="block text-white">MINTING APRIL 28 2022.</span>
             </h2>
-                  <BasicsCountdown end=1652158800000 />
+                  <BasicsCountdown end=1652331600000 />
             <p class="">
               Join our Discord where we host games and trivia, share alpha, and secure your spot on our whitelist.
             </p>
 
         <div class="">
-          <PillButton> JOIN THE COMUNITY  &nbsp;<font-awesome-icon :icon="['fas','chevron-right']"  /></PillButton>
+          <PillButton @click.native="goDiscord"> JOIN THE COMUNITY  &nbsp;<font-awesome-icon :icon="['fas','chevron-right']"  /></PillButton>
         </div>
         <div class="text-2xl grid grid-flow-col space-x-4 justify-center">
           <a class="hover:text-yellow" target="_black" href="https://twitter.com/AbductionSquad"><font-awesome-icon :icon="['fab','twitter']"  /> </a>
@@ -25,6 +25,21 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      url:"https://discord.com/invite/abductionsquad"
+    }
+  },
+  methods:{
+    goDiscord() {
+       window.open(this.url, '_blank').focus();
+    }
+  }
+}
+</script>
 <style scoped>
 
 </style>
