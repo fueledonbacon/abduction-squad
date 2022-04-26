@@ -7,7 +7,7 @@
    
       <div class="flex flex-col  justify-center space-y-5 text-center">
            <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl font-[oswald-medium]">
-              <span class="block text-white">MINTING APRIL 28 2022.</span>
+              <span class="block text-white">MINTING MAY 12th.</span>
             </h2>
                   <BasicsCountdown end=1652331600000 />
             <p class="">
