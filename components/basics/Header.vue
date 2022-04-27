@@ -104,7 +104,11 @@ export default {
 	},
 	computed: {},
 	mounted() {},
-	methods: {},
+	methods: {
+		toggleNavigator() {
+			this.isNavigatorOpen =!this.isNavigatorOpen
+		}
+	},
 }
 </script>
 
