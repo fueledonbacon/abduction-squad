@@ -7,17 +7,11 @@
 			 <source src="@/assets/videos/bg-black.mp4" > 
 		</video>
 
-    <div class="flex  flex-col-reverse md:absolute  md:flex-row align-end h-full w-full px-8 m-auto  top-0 left-0 z-30">
+    <div class="flex  flex-col-reverse md:absolute  md:flex-row align-end h-full w-full px-0 md:px-8 m-auto  top-0 left-0 z-30">
       <div
 				class="
-
-
-
-
-
 					w-full
 					md:w-3/5
-
 					max-w-1/2
 					md:pt-16
 					mx-auto
@@ -29,6 +23,7 @@
 					flex flex-col
 					space-y-8
 					w-full
+					px-8 md:px-0
 					md:w-2/5
 					py-10
 					justify-center
@@ -46,13 +41,13 @@
 					</kinesis-element>
 				</h2>
 				
-				<p class="text-white  lg:max-w-sm mt-9 md:text-left text-center text-sm leading-6">
+				<p class="text-white font-spmono tracking-normal   lg:max-w-sm  md:text-left text-center md:text-lg text-[10px] leading-4 lg:mt-9">
 					is launching a Genesis Collection of 3,333 randomly-generated 3D aliens on
 					the Ethereum blockchain. These characters can be used in our mobile app P2W
 					game.
 				</p>
         <br>
-				<div class="w-2/3">
+				<div class="w-11/12 md:w-2/3 text-center md:text-left">
 					<PillButton @click.native="downloadPdf">ABDUCTION PROTOCOL&nbsp;<font-awesome-icon :icon="['fas','chevron-right']"  /></PillButton>
 				</div>
 			</div>

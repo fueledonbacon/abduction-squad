@@ -16,7 +16,7 @@
 						lg:max-w-5xl
 					">
 					<img
-						class="m-auto max-w-xl"
+						class="max-w-xl m-auto w-10/12"
 						src="@/assets/images/spacemap.svg" />
 					<h3
 						class="

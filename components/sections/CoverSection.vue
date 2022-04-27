@@ -8,7 +8,7 @@
 			min-h-[56vw]
 			sm:h-[56vw]
 			bg-[#1f2937]
-			mb-[87px]
+
 			sm:mb-0
 			z-9
 		">
@@ -18,7 +18,7 @@
 				autoplay
 				muted
 				loop
-				class="absolute top-0 z-0 w-full h-full mt-[87px] sm:mt-0">
+				class="absolute top-0 z-0 w-full h-full mt-16 sm:mt-0">
 				<source
 					muted autoplay loop
 					src="@/assets/videos/bg-cover.mp4"
