@@ -3,8 +3,7 @@
 		:class="`bg-black ${
 			scrollY < 1 ? 'sm:bg-transparent' : ''
 		}  flex justify-center items-baseline fixed px-3 py-3 w-full z-50`">
-		<ConnectModal />
-
+		<!-- <ConnectModal /> -->
 
 		<div class="flex justify-between items-center w-full sm:w-11/12">
 			<!-- Desktop nav -->
@@ -17,7 +16,6 @@
 						<font-awesome-icon :icon="['fab', 'discord']" />
 					</a>
 				</div>
-
 
 				<a class="text-lg xl:text-xl uppercase underline" href="/whitelist"
 					>SpaceList checker</a
