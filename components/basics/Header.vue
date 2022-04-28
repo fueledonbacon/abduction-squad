@@ -3,7 +3,7 @@
 		:class="`bg-black ${
 			scrollY < 1 ? 'sm:bg-transparent' : ''
 		}  flex justify-center items-baseline fixed px-3 py-3 w-full z-50`">
-		<ConnectModal />
+		<!-- <ConnectModal /> -->
 
 		<div class="flex justify-between items-center w-full sm:w-11/12">
 			<!-- Desktop nav -->
@@ -21,7 +21,7 @@
 					>SpaceList checker</a
 				>
 			</nav>
-			<ConnectButton />
+			<!-- <ConnectButton /> -->
 			<!-- Mobile menu -->
 			<div class="flex lg:hidden justify-end ml-3">
 				<button class="text-white z-20" @click="toggleNavigator">
