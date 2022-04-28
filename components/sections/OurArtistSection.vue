@@ -1,11 +1,32 @@
 <template>
-<section class="w-full bg-black max-h-fit" id="our-artist">
-	<div class="relative w-full">
-    <video class="md:max-h-192 hidden md:block relative w-full z-10 " style="width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1;" autoplay loop muted >
-			 <source src="@/assets/videos/bg-black.mp4" > 
-		</video>
-    <div class="flex  flex-col  md:absolute     md:flex-row align-end h-full w-full px-8 m-auto  top-0 left-0 z-30">
-      <div
+	<section
+		class="
+			bg-fixed bg-cover
+			relative
+			block
+			overflow-hidden
+			leading-6
+			text-left text-white
+		"
+		id="our-artist"
+		style="background-image: url('/bg-image.jpeg')">
+		<div
+			class="absolute -z-0 w-full h-full top-0 bg-black/[.95] min-h-full"></div>
+		<div
+			class="
+				flex flex-col
+				pt-16
+				md:relative md:flex-row
+				align-end
+				h-full
+				w-full
+				md:px-8
+				m-auto
+				top-0
+				left-0
+				z-30
+			">
+			<div
 				class="
 					md:relative
 					flex flex-col
@@ -15,48 +36,60 @@
 					w-full
 					md:w-1/2
 					max-w-1/2
-					pt-16
 					mx-auto
-          md:mx-2
+					md:mx-2
 				">
-    <div class="relative w-full min-h-full pb-96  overflow-hidden md:overflow-visible">
+				<div
+					class="
+						relative
+						w-full
+						min-h-full
+						pb-96
+						overflow-hidden
+						md:overflow-visible
+					">
+					<img
+						class="absolute bottom-0 left-28  md:left-1/2 md:w-96 z-10 w-10/12"
+						src="@/assets/images/lazer_eyes.png" />
 
-  <img class="absolute bottom-0 left-0  md:left-1/2 md:w-2/3 z-10 w-full" src="@/assets/images/lazer_eyes.png"  />
-
-  <img class="absolute bottom-0 left-16 md:left-20 md:w-2/3 w-full" src="@/assets/images/drool.png"/>
-
-</div>
-
+					<img
+						class="absolute bottom-0 -left-16  md:left-1/4 md:w-96 w-10/12"
+						src="@/assets/images/drool.png" />
+				</div>
 			</div>
 			<div
 				class="
 					flex flex-col
 					space-y-8
 					w-full
-					md:w-2/5
+					md:max-1/2 
+					md:justify-end
+					relative
 					pb-10
+					px-8
+					md:px-0
 					justify-center
 					items-center
-					lg:ml-8
-					lg:mb-0
-          text-center
+					md:items-start
+					md:-ml-32  md:-mb-8
+					text-center
 				">
-				<h2 class="text-4xl font-[oswald-medium] sm:text-5xl mt-7 ">
-          MEET OUR ARTIST
-        </h2>
-				<p class="font-spmono text-white lg:max-w-sm mt-9">
-            Video game and VFX veteran Armando "AO"
-            DeSoto has worked in the industry for the past 18 years. 
-            Along with working with top game studios and VFX houses,
-            AO has created assets for companies like Sony, Pixar, and Nickelodeon.
+				<h2 class="text-4xl md:w-1/2 text-center font-[oswald-medium] sm:text-5xl mt-7">
+					MEET OUR ARTIST
+				</h2>
+				<p class="text-white font-spmono tracking-normal  md:w-1/2  text-center md:text-lg text-[10px] leading-4 lg:mt-9">
+					Video game and VFX veteran Armando "AO" DeSoto has worked in the industry
+					for the past 18 years. Along with working with top game studios and VFX
+					houses, AO has created assets for companies like Sony, Pixar, and
+					Nickelodeon.
 				</p>
-				<div class="w-2/3 flex flex-col space-y-4 text-center">
-            <a class="text-yellow underline" href="">View Work</a>
-            <a href=""><font-awesome-icon :icon="['fab','twitter']"  /> </a>
+				<div class="w-full md:w-1/2 items-center flex flex-col space-y-4 text-center">
+					<a class="text-yellow underline" target="_blank" href="https://sotosan.artstation.com/">view work</a>
+					<a class="text-xl" href="https://twitter.com/Zoto3D"
+						><font-awesome-icon :icon="['fab', 'twitter']" />
+					</a>
 				</div>
 			</div>
-    </div>
-	</div>
-
+		</div>
 	</section>
 </template>

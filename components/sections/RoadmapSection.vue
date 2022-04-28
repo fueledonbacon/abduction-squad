@@ -1,13 +1,16 @@
 <template>
-	<section class="w-full  bg-black " id="roadmap-section">
-		<div class="px-12 relative w-full">
-    <video class="md:max-h-192 hidden md:block relative w-full z-10" autoplay loop muted >
+
+	<section class="w-full  bg-black  " id="roadmap-section">
+		<div class=" relative w-full">
+   <video class="md:max-h-max h-max hidden md:block absolute w-full z-10 " style="width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1;" autoplay loop muted >
 			 <source src="@/assets/videos/bg-black.mp4" > 
 		</video>
-      <div class="md:absolute  py-16    h-full w-full  m-auto  top-0 left-0 z-30">
+    <div class=" py-16 md:relative   z-10 top-0 left-0  md:flex-row  h-full w-full m-auto ">
+
 				<div
 					class="
-						mb-20
+						
+						mb-16
 						space-y-5
 						sm:mx-auto sm:max-w-xl
 						md:max-w-2xl
@@ -15,14 +18,14 @@
 						lg:max-w-5xl
 					">
 					<img
-						class="m-auto max-w-xl"
+						class="max-w-xl m-auto w-10/12"
 						src="@/assets/images/spacemap.svg" />
 					<h3
 						class="
-							text-xl
+									text-xl
 							sm:text-3xl
 							md:text-[40px]
-font-[oswald-medium]
+							font-[oswald-medium]
 							leading-none
 							lg:leading-7
 							text-center text-white

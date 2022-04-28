@@ -1,21 +1,21 @@
 <template>
     <div class="mx-auto">
-    <ul class="text-white flex flex-row text-center my-4 justify-center">
+    <ul class="text-white flex flex-row text-center my-4 justify-center font-[oswald-medium]">
         <li v-if="days > 0" class="w-16">
             <p class="text-3xl">{{ days | twoDigits }}</p>
-            <p class="text-sm text-gray-300">{{ days > 1 ? 'days' : 'day' }}</p>
+            <p class="text-sm font-spmono text-white">{{ days > 1 ? 'days' : 'day' }}</p>
         </li>
         <li class="w-16">
             <p class="text-3xl">{{ hours | twoDigits }}</p>
-            <p class="text-sm text-gray-300">{{ hours > 1 ? 'hours' : 'hour' }}</p>
+            <p class="text-sm font-spmono text-white">{{ hours > 1 ? 'hours' : 'hour' }}</p>
         </li>
         <li class="w-16">
             <p class="text-3xl">{{ minutes | twoDigits }}</p>
-            <p class="text-sm text-gray-300">min</p>
+            <p class="text-sm font-spmono text-white">min</p>
         </li>
         <li class="w-16">
             <p class="text-3xl">{{ seconds | twoDigits }}</p>
-            <p class="text-sm text-gray-300">sec</p>
+            <p class="text-sm font-spmono text-white">sec</p>
         </li>
     </ul>
    

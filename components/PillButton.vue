@@ -1,32 +1,36 @@
 <template>
-	<button
+	<button  @click="callback($event)"
 		type="button"
-		class="
-		  rounded-sm
-			inline-flex
-			items-center
-
-			h-12
-			px-8
-			text-base
-			font-medium
-			leading-6
-			text-black
-			transition
-			duration-150
-			ease-in-out
-			bg-yellow
-			border border-transparent
-			hover:bg-slate-700
-			hover:text-yellow
-			focus:outline-none
-
-		">
-		<slot />
+		class="btn">
+		<span>	<slot /></span>
 	</button>
 </template>
+
+<style scoped>
+.btn {
+	@apply 
+				font-poppins
+				text-black
+				bg-yellow hover:bg-black hover:text-yellow
+				hover:shadow-md hover:shadow-yellow
+				border border-transparent rounded-sm 
+				inline-flex items-center h-12 px-8
+				transition duration-150 ease-in-out
+				focus:outline-none 
+				
+
+
+
+}
+
+</style>
 <script>
 export default{
-    name: "PillButton"
+    name: "PillButton",
+	methods: {
+    callback: function(e) {
+      this.$emit('click', e);
+    }
+	}
 }
 </script>
