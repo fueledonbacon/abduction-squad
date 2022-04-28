@@ -5,6 +5,7 @@
 		}  flex justify-center items-baseline fixed px-3 py-3 w-full z-50`">
 		<!-- <ConnectModal /> -->
 
+
 		<div class="flex justify-between items-center w-full sm:w-11/12">
 			<!-- Desktop nav -->
 			<nav class="hidden lg:flex text-white w-full justify-between px-8 h-12 items-end">
@@ -16,6 +17,7 @@
 						<font-awesome-icon :icon="['fab', 'discord']" />
 					</a>
 				</div>
+
 
 				<a class="text-lg xl:text-xl uppercase underline" href="/whitelist"
 					>SpaceList checker</a
