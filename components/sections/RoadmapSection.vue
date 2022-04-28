@@ -1,10 +1,12 @@
 <template>
+
 	<section class="w-full  bg-black  " id="roadmap-section">
 		<div class=" relative w-full">
    <video class="md:max-h-max h-max hidden md:block absolute w-full z-10 " style="width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1;" autoplay loop muted >
 			 <source src="@/assets/videos/bg-black.mp4" > 
 		</video>
     <div class=" py-16 md:relative   z-10 top-0 left-0  md:flex-row  h-full w-full m-auto ">
+
 				<div
 					class="
 						
