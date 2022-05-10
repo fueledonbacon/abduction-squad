@@ -126,8 +126,10 @@ export default {
 				}
 			}
 		},
+
 		onWhitelist() {
-			return whitelist.includes(this.address)
+			const checksumAddress = ethers.utils.getAddress(this.address)
+			return whitelist.includes(checksumAddress)
 		},
 
 		verify() {
