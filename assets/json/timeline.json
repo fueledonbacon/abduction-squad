@@ -1,30 +1,34 @@
 [
 	{
 		"title": "1.",
-		"texts": "Launch Abduction \n Squad."
+		"texts": "Abduction Squad\nGenesis Launch.."
 	},
 	{
 		"title": "2.",
-		"texts": "Post-Mint Community \n Giveback Event."
+		"texts": "Community\nGiveback."
 	},
 	{
 		"title": "3.",
-		"texts": "Trait Reward \n Giveaway."
+		"texts": "IRL Traits\nGiveaway."
 	},
 	{
 		"title":"4.",
-		"texts":"Purchase Metaverse \nLand"
+		"texts":"Release $SQUAD\nToken."
 	},
 	{
 		"title":"5.",
-		"texts":"P2W Announcement"
+		"texts":"Launch V2\n(TBA)."
 	},
 	{
 		"title":"6.",
-		"texts":"IRL Event"
+		"texts":"$SQUAD\nMarketplace."
 	},
 	{
 		"title":"7.",
-		"texts":"SpaceMap 2.0 - \n Staking/Launchpad"
+		"texts":"P2W Competition\n(TBA)."
+	},
+	{
+		"title":"8.",
+		"texts":"Roadmap 2.0"
 	}
 ]
