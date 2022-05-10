@@ -2,12 +2,22 @@
 	<header
 		:class="`bg-black ${
 			scrollY < 1 ? 'sm:bg-transparent' : ''
-		}  flex justify-center items-baseline fixed px-3 py-3 w-full z-50`">
-		<!-- <ConnectModal /> -->
+		}  flex justify-center items-center fixed px-3 py-3 w-full z-50`">
+		<ConnectModal />
 
 		<div class="flex justify-between items-center w-full sm:w-11/12">
 			<!-- Desktop nav -->
-			<nav class="hidden lg:flex text-white w-full justify-between px-8 h-12 items-end">
+			<nav
+				class="
+					hidden
+					lg:flex
+					text-white
+					w-full
+					justify-between
+					px-8
+					h-12
+					items-center
+				">
 				<div class="grid grid-flow-col space-x-4 social text-3xl">
 					<a href="https://twitter.com/AbductionSquad" target="_blank">
 						<font-awesome-icon :icon="['fab', 'twitter']" />
@@ -106,8 +116,8 @@ export default {
 	mounted() {},
 	methods: {
 		toggleNavigator() {
-			this.isNavigatorOpen =!this.isNavigatorOpen
-		}
+			this.isNavigatorOpen = !this.isNavigatorOpen
+		},
 	},
 }
 </script>
