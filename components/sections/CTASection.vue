@@ -10,7 +10,7 @@
               <span class="block text-white">MINTING MAY 12 2022.</span>
             </h2>
                 <BasicsCountdown end=1652331600000 />
-            <p class="text-white font-spmono tracking-normal   text-center md:text-lg text-[10px] leading-4 ">
+            <p class="text-white font-spmono tracking-normal   text-center md:text-lg text-[12px] leading-4 ">
               Join our Discord where we host games and trivia, share alpha, and secure your spot on our whitelist.
             </p>
 

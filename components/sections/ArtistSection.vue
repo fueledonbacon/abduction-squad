@@ -13,7 +13,7 @@
 				leading-6 text-left
 			">
 			<div class="w-full px-4 text-center font-spmono space-y-10">
-				<div class="md:w-1/2 mx-auto box-border text-white font-spmono tracking-normal text-center md:text-lg text-[10px] leading-4 lg:mt-9">
+				<div class="max-w-md md:w-1/2 mx-auto box-border text-white font-spmono tracking-normal text-center md:text-lg text-[12px] leading-4 lg:mt-9">
 					<p>
 						Our primary focus is a play-to-win style game with out-of-this-world
 						prizes. Holders of our NFT will get the chance to unlock buffs for their
@@ -26,7 +26,7 @@
 
 				</div>
 
-        <span class="text-yellow my-2 text-[10px] md:text-xs"> Intergalactic Community, Extrasensory Art.  </span>
+        <span class="text-yellow my-2 text-[12px] md:text-xs"> Intergalactic Community, Extrasensory Art.  </span>
 
 
 				<div class="overflow-hidden w-full md:w-1/2 mx-auto   ">

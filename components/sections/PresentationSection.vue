@@ -41,7 +41,7 @@
 					</kinesis-element>
 				</h2>
 				
-				<p class="text-white font-spmono tracking-normal   lg:max-w-sm  md:text-left text-center md:text-lg text-[10px] leading-4 lg:mt-9">
+				<p class="text-white font-spmono tracking-normal   max-w-sm  md:text-left text-center md:text-lg text-[12px] leading-4 lg:mt-9">
 					is launching a Genesis Collection of 3,333 randomly-generated 3D aliens on
 					the Ethereum blockchain. These characters can be used in our mobile app P2W
 					game.
