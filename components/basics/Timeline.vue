@@ -7,6 +7,7 @@
 			mx-auto
 			item
 			justify-center
+			items-center
 		">
 		<div
 			v-for="item in timelineItems"
