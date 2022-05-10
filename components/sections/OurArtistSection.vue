@@ -91,7 +91,7 @@
 						tracking-normal
 						text-center
 						md:text-lg
-						text-[12px]
+						text-[14px]
 						leading-4
 						lg:mt-9
 					">

@@ -34,10 +34,9 @@
 							max-w-lg
 							mx-auto
 							mt-6
-							text-sm text-center text-white
+							text-base text-center text-white
               opacity-90
 							md:mt-12
-							sm:text-base
 							md:max-w-xl md:text-lg
 							xl:text-xl
 							spmono

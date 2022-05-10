@@ -1,5 +1,5 @@
 <template>
-	<section class="w-full overflow-hidden bg-black" id="prizes">
+	<section class="w-full overflow-hidden bg-black hidden md:block" id="prizes">
 
 	<div class="relative w-full max-h-min">
 

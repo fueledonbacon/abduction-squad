@@ -29,6 +29,7 @@
 					space-y-3
 					sm:space-x-3 sm:space-y-0 sm:flex-row
 					lg:mt-8
+					z-10
 				">
 				<form netlify action="/" method="POST" name="subscribers">
 					<input type="hidden" name="form-name" value="subscribers" />

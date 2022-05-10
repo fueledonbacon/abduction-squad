@@ -27,14 +27,19 @@
 					</a>
 				</div>
 
-				<a class="text-lg xl:text-xl uppercase underline" href="/whitelist"
-					>SpaceList checker</a
-				>
+				{{$nuxt.$route.name}}
+				<a v-if="$nuxt.$route.name!='whitelist'" class="text-lg xl:text-xl uppercase underline" href="/whitelist">
+					SPACE LIST CHECKER
+				</a>
+								
+				<a v-else class="text-lg xl:text-xl uppercase underline" href="/">
+					HOME
+				</a>
 			</nav>
 			<ConnectButton />
 			<!-- Mobile menu -->
 			<div class="flex lg:hidden justify-end ml-3">
-				<button class="text-white z-20" @click="toggleNavigator">
+				<button class="text-white z-20 text-3xl" @click="toggleNavigator">
 					<font-awesome-icon :icon="['fas', 'bars']" v-if="!isNavigatorOpen" />
 					<font-awesome-icon :icon="['fas', 'xmark']" v-else />
 				</button>
@@ -54,29 +59,33 @@
 							z-10
 							items-center
 							justify-center
-							text-3xl
+							font-spmono
+							text-2xl
+							uppercase
 						"
 						:class="{
 							'scale-in': isNavigatorOpen,
 							'scale-out': !isNavigatorOpen,
 						}">
-						<ul class="flex flex-col text-white text-center">
-							<li class="mb-3">
-								<a href="/#presentation">Presentation</a>
-							</li>
-							<li class="mb-3">
+						<ul class="flex flex-col text-white text-left w-full">
+
+							<li class="pb-1 mb-2 border-b-2 border-b-yellow/75">
 								<a href="/#presentation-section">The Protocol</a>
 							</li>
 
-							<li class="mb-3">
+							<li class="pb-1 mb-2 border-b-2 border-b-yellow/75 ">
 								<a href="/#roadmap-section">Our Artist</a>
 							</li>
-							<li class="mb-3">
+							<li class="pb-1 mb-2 border-b-2 border-b-yellow/75 ">
 								<a href="/#roadmap-section">Road Map</a>
 							</li>
-							<li class="mb-3">
+							<li class="pb-1 mb-2 border-b-2 border-b-yellow/75 ">
 								<a href="/#team-section">Our Team</a>
 							</li>
+								<li  v-if="$nuxt.$route.name!='whitelist'" class="pb-1 mb-2 border-b-2 border-b-yellow/75 block md:hidden text-yellow">
+								<a href="/whitelist">SPACELIST</a>
+							</li>
+
 							<!-- <li class="mb-3">
                 <a href="/#faq-section">FAQ</a>
               </li>
@@ -123,6 +132,8 @@ export default {
 </script>
 
 <style scoped>
+
+
 @keyframes scaleIn {
 	from {
 		transform: scale(0);
