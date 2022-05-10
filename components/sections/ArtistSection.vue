@@ -13,8 +13,22 @@
 				leading-6 text-left
 			">
 			<div class="w-full px-4 text-center font-spmono space-y-10">
-				<div class="md:w-1/2 mx-auto box-border text-white font-spmono tracking-normal text-center md:text-lg text-[10px] leading-4 lg:mt-9">
-					<p>
+				<div class="flex flex-row justify-center space-x-4 text-2xl list-none">
+					
+								<li class="list-none ">
+									<a href="https://discord.com/invite/abductionsquad" target="_blank">
+										<font-awesome-icon :icon="['fab', 'discord']" />
+									</a>
+								</li>
+								<li class="list-none">
+									<a href="https://twitter.com/AbductionSquad" target="_blank">
+										<font-awesome-icon :icon="['fab', 'twitter']" />
+									</a>
+								</li>
+							</div>
+				<div class="md:w-1/2 mx-auto box-border text-white font-spmono tracking-normal text-center md:text-lg text-[14px]  leading-4 lg:mt-9">
+				
+					<p class="px-1">
 						Our primary focus is a play-to-win style game with out-of-this-world
 						prizes. Holders of our NFT will get the chance to unlock buffs for their
 						in-game character, these buffs will strengthen their odds in the play to
@@ -26,7 +40,7 @@
 
 				</div>
 
-        <span class="text-yellow my-2 text-[10px] md:text-xs"> Intergalactic Community, Extrasensory Art.  </span>
+        <span class="text-yellow my-2 text-[14px]  md:text-xs"> Intergalactic Community, Extrasensory Art.  </span>
 
 
 				<div class="overflow-hidden w-full md:w-1/2 mx-auto   ">

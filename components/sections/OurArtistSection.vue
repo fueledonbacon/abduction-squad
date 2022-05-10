@@ -14,7 +14,7 @@
 			class="absolute -z-0 w-full h-full top-0 bg-black/[.95] min-h-full"></div>
 		<div
 			class="
-				flex flex-col
+				flex flex-col-reversed
 				pt-16
 				md:relative md:flex-row
 				align-end
@@ -77,7 +77,7 @@
 				<h2 class="text-4xl md:w-1/2 text-center font-[oswald-medium] sm:text-5xl mt-7">
 					MEET OUR ARTIST
 				</h2>
-				<p class="text-white font-spmono tracking-normal  md:w-1/2  text-center md:text-lg text-[10px] leading-4 lg:mt-9">
+				<p class="text-white font-spmono tracking-normal  md:w-1/2  text-center md:text-lg text-[14px]  leading-4 lg:mt-9">
 					Video game and VFX veteran Armando "AO" DeSoto has worked in the industry
 					for the past 18 years. Along with working with top game studios and VFX
 					houses, AO has created assets for companies like Sony, Pixar, and

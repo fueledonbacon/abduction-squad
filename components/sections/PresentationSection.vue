@@ -41,14 +41,14 @@
 					</kinesis-element>
 				</h2>
 				
-				<p class="text-white font-spmono tracking-normal   lg:max-w-sm  md:text-left text-center md:text-lg text-[10px] leading-4 lg:mt-9">
+				<p class="text-white font-spmono tracking-normal   lg:max-w-sm  md:text-left text-center text-[14px]  md:text-lg leading-4 lg:mt-9">
 					is launching a Genesis Collection of 3,333 randomly-generated 3D aliens on
 					the Ethereum blockchain. These characters can be used in our mobile app P2W
 					game.
 				</p>
         <br>
 				<div class="w-11/12 md:w-2/3 text-center md:text-left">
-					<PillButton @click.native="downloadPdf">ABDUCTION PROTOCOL&nbsp;<font-awesome-icon :icon="['fas','chevron-right']"  /></PillButton>
+					<PillButton @click.native="goTosite">ABDUCTION PROTOCOL&nbsp;<font-awesome-icon :icon="['fas','chevron-right']"  /></PillButton>
 				</div>
 			</div>
     
@@ -62,11 +62,11 @@
 export default {
 	data() {
 		return {
-			documentUri:"/Abduction-Protocol-compressed.pdf"
+			documentUri:"https://abduction-squad.gitbook.io/abduction-squad-white-paper"
 		}
 	},
 	methods: {
-		downloadPdf(){
+		goTosite(){
        window.open(this.documentUri, '_blank').focus();
 
 		}

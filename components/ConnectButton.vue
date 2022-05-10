@@ -1,6 +1,6 @@
 <template>
   <div>
-		<PillButton @click.native="connectWallet">  <strong>{{ $wallet.accountCompact }}</strong></PillButton>
+		<PillButton @click.native="connectWallet" class="capitalize">  <strong>{{ $wallet.accountCompact }}</strong></PillButton>
 
     <!-- <a
       href="#_"
