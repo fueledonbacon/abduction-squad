@@ -1,6 +1,6 @@
 require('dotenv').config();
 const updateEnv = require('./updateEnv.js');
-const updateSiteConfig = require('./updateSiteConfig.js');
+// const updateSiteConfig = require('./updateSiteConfig.js');
 
 async function main() {
   const contractFactory = await ethers.getContractFactory("TheMutantMushies")
@@ -23,7 +23,7 @@ async function main() {
   }
 
   updateEnv(envUpdate)
-  updateSiteConfig(contract.address)
+  // updateSiteConfig(contract.address)
       
   console.log("Contract deployed to address:", contract.address)
 }
