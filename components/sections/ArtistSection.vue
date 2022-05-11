@@ -16,7 +16,7 @@
 				mx-auto
 				space-y-12
 				md:py-20
-				pb-20
+				pb-12
 				md:px-16
 				sm:px-12
 				xl:px-12
@@ -25,7 +25,7 @@
 				text-left
 			">
 			<div class="w-full px-4 text-center font-spmono space-y-10">
-				<div class="flex flex-row justify-center space-x-4 text-2xl list-none">
+				<div class="flex flex-row justify-center space-x-4 text-2xl list-none mt-12">
 					<li class="list-none">
 						<a href="https://discord.com/invite/abductionsquad" target="_blank">
 							<font-awesome-icon :icon="['fab', 'discord']" />

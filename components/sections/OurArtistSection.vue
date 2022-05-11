@@ -47,12 +47,16 @@
 					">
 					<img
 						class="absolute bottom-0
-						left-28 md:w-96
+						
+						left-36 	sm:left-28
+						 md:w-96
 						z-10 w-10/12"
 						src="@/assets/images/lazer_eyes.png" />
 
 					<img
-						class="absolute bottom-0 md:w-96 w-10/12"
+						class="absolute bottom-0 md:w-96 w-10/12
+						-left-8 
+						sm:-left-20 "
 						src="@/assets/images/drool.png" />
 				</div>
 			</div>

@@ -12,7 +12,7 @@
 			">
 			<div class="absolute -z-0 w-full h-full  top-0 bg-black/[.95] min-h-full ">
 			</div>
-			<div class="mx-auto max-w-7xl  my-40">
+			<div class="mx-auto max-w-7xl  my-40 px-8">
 				<div class="relative  container  mx-auto text-center sm:px-4">
 					<h1
 						class="
