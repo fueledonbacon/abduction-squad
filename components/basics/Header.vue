@@ -27,7 +27,7 @@
 					</a>
 				</div>
 
-				{{$nuxt.$route.name}}
+
 				<a v-if="$nuxt.$route.name!='whitelist'" class="text-lg xl:text-xl uppercase underline" href="/whitelist">
 					SPACE LIST CHECKER
 				</a>
