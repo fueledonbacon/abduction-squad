@@ -85,6 +85,9 @@
 								<li  v-if="$nuxt.$route.name!='whitelist'" class="pb-1 mb-2 border-b-2 border-b-yellow/75 block md:hidden text-yellow">
 								<a href="/whitelist">SPACELIST</a>
 							</li>
+								<li  v-else class="pb-1 mb-2 border-b-2 border-b-yellow/75 block md:hidden text-yellow">
+								<a href="/">HOME</a>
+							</li>
 
 							<!-- <li class="mb-3">
                 <a href="/#faq-section">FAQ</a>
