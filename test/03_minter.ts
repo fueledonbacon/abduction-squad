@@ -7,7 +7,7 @@ import {
 	createMerkleProof,
 	verifyMerkleProof,
 } from '../scripts/merkleTree'
-const payerAddress = '0x47c63f02C412ba84DbA7374917275dE50B2C747D'
+const payerAddress = '0xbcd4042de499d14e55001ccbb24a551f3b954096'
 const ipfs = 'ipfs://QmYfsUQEdmaaw8zDmR8qR7Cua6dakPGBuXsAPks7pedX4u/'
 describe('ABDUCTION SQUAD:', function () {
 	it('Should be in whitelist', async function () {
@@ -19,12 +19,7 @@ describe('ABDUCTION SQUAD:', function () {
 		]
 		const merkleRoot = await createMerkleRoot(addresses)
 		const merkleProof = await createMerkleProof(addresses, addresses[2])
-		const isIncluded = await verifyMerkleProof(
-			addresses,
-			addresses[2],
-			merkleProof,
-			merkleRoot
-		)
+
 		console.log( merkleRoot)
 
 		const NFT = await ethers.getContractFactory('AbductionSquad')

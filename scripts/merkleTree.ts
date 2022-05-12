@@ -3,13 +3,11 @@ import keccak256 from "keccak256";
 
 
 export const createMerkleRoot = async (list:  string[]) => {
-
-  
   const leaves = list.map(x => keccak256(x))
   // const tree = new MerkleTree(leaves, keccak256)
-  const tree = new MerkleTree(leaves, keccak256)
-  const root = tree.getRoot().toString('hex')
-  return root
+  const merkleTree = new MerkleTree(leaves, keccak256, {sortPairs:true})
+  const rootHash = merkleTree.getRoot()
+  return rootHash
 }
 
 export const createMerkleProof = async (list: string[], address: string) => {
