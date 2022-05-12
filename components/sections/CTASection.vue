@@ -18,9 +18,9 @@
 						sm:text-4xl
 						font-[oswald-medium]
 					">
-					<span class="block text-white">MINTING MAY 12 2022.</span>
+		<span class="block text-white">MINT DATE TBA</span>
 				</h2>
-				<BasicsCountdown end="1652331600000" />
+				<!--<BasicsCountdown end="1652331600000" /> -->
 				<p
 					class="
 						text-white
