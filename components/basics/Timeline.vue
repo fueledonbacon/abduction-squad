@@ -25,6 +25,7 @@
 				content-center
 				aling-end
 			">
+			
 			<h5 class="font-flyingSausage sm:flex text-yellow text-8xl">
 				{{ item.title }}
 			</h5>

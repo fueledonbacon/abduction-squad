@@ -25,7 +25,7 @@
 				text-left
 			">
 			<div class="w-full px-4 text-center font-spmono space-y-10">
-				<div class="flex flex-row justify-center space-x-4 text-2xl list-none mt-12">
+				<div class="flex flex-row justify-center space-x-4 text-2xl list-none ">
 					<li class="list-none">
 						<a href="https://discord.com/invite/abductionsquad" target="_blank">
 							<font-awesome-icon :icon="['fab', 'discord']" />

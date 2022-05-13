@@ -10,14 +10,15 @@ import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
 import "@openzeppelin/contracts/access/AccessControl.sol";
 import "./ERC721A.sol";
 
-contract TemplateNFT is ERC721A, AccessControl {
+contract AbductionSquad is ERC721A, AccessControl {
     bytes32 public ADMIN_ROLE = keccak256("ADMIN_ROLE");
     bytes32 public MOD_ROLE = keccak256("MOD_ROLE");
     using Strings for uint256;
 
     address private immutable _revenueRecipient;
     
-    bytes32 public whitelistMerkleRoot;
+    bytes32 public _whitelistMerkleRoot;
+    bytes32 public _secondPeerMerkleRoot;
 
     mapping(address=>uint) private _whitelistClaimed;
     mapping(address=>uint) private _secondWhitelistClaimed;
@@ -34,14 +35,14 @@ contract TemplateNFT is ERC721A, AccessControl {
     bool private _overrideWhitelist = false;
     bool private _overridePublic  = false;
 
-    uint public constant AIRDROP_LIMIT   = 100;
+    uint public constant AIRDROP_LIMIT   = 200;
 
     uint public collectionSize = 3333;
     uint public whitelistLimit = 1;
-    uint public secondWhiteListLimit = 1;
+    uint public secondPeerLimit = 2;
     uint public publicLimit    = 20;
-    uint public whitelistPrice = 0.07 ether;
-    uint public publicPrice    = 0.1 ether;
+
+    uint public Price = 0.069 ether;
 
     uint public whitelistStart;
     uint public whitelistEnd;
@@ -50,16 +51,19 @@ contract TemplateNFT is ERC721A, AccessControl {
 
     constructor(
         address revenueRecipient,
-        bytes32 _whitelistMerkleRoot,
+        bytes32 whitelistMerkleRoot,
+        bytes32 secondPeerMerkleRoot,
         string memory tempUri
     )
-        ERC721A("ABDUCTIONSQUAD", "SQUAD")
+        ERC721A("AbductionSquad", "ABSQ")
     {
         _revenueRecipient  = revenueRecipient;
-        whitelistMerkleRoot = _whitelistMerkleRoot;
+        _whitelistMerkleRoot = whitelistMerkleRoot;
+        _secondPeerMerkleRoot  = secondPeerMerkleRoot;
         _tempUri = tempUri;
-        whitelistStart = block.timestamp + 30 minutes;  // starts 30 minutes after contract launch
-        whitelistEnd = whitelistStart + 4 hours; // ends 4 hours after it starts
+        whitelistStart = block.timestamp + 5 minutes;  // starts 10 minutes after contract launch
+        // whitelistStart = block.timestamp + 10 minutes;  // starts 10 minutes after contract launch
+        whitelistEnd = whitelistStart + 24 hours; // ends 4 hours after it starts
         publicStart = whitelistEnd; // starts when whitelist sale ends
         publicEnd = publicStart + 4 hours; // ends 4 hours after it starts
         _setupRole(DEFAULT_ADMIN_ROLE, msg.sender);
@@ -124,7 +128,12 @@ contract TemplateNFT is ERC721A, AccessControl {
 
     function setWhitelistMerkleRoot(bytes32 root) external onlyAdmin {
         require(listsFinalized == false, "LIST_FINALIZED");
-        whitelistMerkleRoot = root;
+        _whitelistMerkleRoot = root;
+    }
+
+    function setWhiteSecondlistMerkleRoot(bytes32 root) external onlyAdmin {
+        require(listsFinalized == false, "LIST_FINALIZED");
+        _secondPeerMerkleRoot = root;
     }
 
     function setWhitelistTimes(
@@ -159,16 +168,14 @@ contract TemplateNFT is ERC721A, AccessControl {
         whitelistLimit = _whitelistLimit;
     }
     function setSecondWhitelistLimit(uint _whitelistLimit) external onlyAdmin {
-        secondWhiteListLimit = _whitelistLimit;
+        secondPeerLimit = _whitelistLimit;
     }
 
     function setPublicPrice(uint _price) external onlyAdmin {
-        publicPrice = _price;
+        Price = _price;
     }
 
-    function setWhitelistPrice(uint _price) external onlyAdmin {
-        whitelistPrice = _price;
-    }
+
 
     function toggleReveal() external onlyAdmin {
         require(metadataFinalized == false, "METADATA_FINALIZED");
@@ -229,29 +236,33 @@ contract TemplateNFT is ERC721A, AccessControl {
     }
 
     function verifyWhitelist(bytes32[] calldata _merkleProof, address addr) public view returns(bool) {
-       return _verifyList(_merkleProof, whitelistMerkleRoot, addr);
+       return _verifyList(_merkleProof, _whitelistMerkleRoot, addr);
+    }    
+    function verifyPeerWhitelist(bytes32[] calldata _merkleProof, address addr) public view returns(bool) {
+       return _verifyList(_merkleProof, _secondPeerMerkleRoot, addr);
     }
 
-     /// @notice Second Peer whiteList Mint 
-    function SecondWhiteListMint(bytes32[] calldata _merkleProof, uint quantity) external payable {
+
+    /// @notice each address on the presale list may mint up to 3 tokens at the presale price
+    function secondwhitelistMint(bytes32[] calldata _merkleProof, uint quantity) external payable {
         require(isWhitelistSaleActive(), "PRESALE_INACTIVE");
-        require(verifyWhitelist(_merkleProof, msg.sender), "PRESALE_NOT_VERIFIED");
+        require(verifyPeerWhitelist(_merkleProof, msg.sender), "PRESALE_NOT_VERIFIED");
         require(totalSupply() + quantity <= collectionSize, "EXCEEDS_COLLECTION_SIZE");
-        require(_secondWhitelistClaimed[msg.sender] + quantity <= secondWhiteListLimit, "WHITELIST_TOKEN_LIMIT");
-        uint cost = quantity * whitelistPrice;
+        require(_whitelistClaimed[msg.sender] + quantity <= secondPeerLimit, "WHITELIST_TOKEN_LIMIT");
+        uint cost = quantity * Price;
         require(msg.value >= cost, "VALUE_TOO_LOW");
-        _secondWhitelistClaimed[msg.sender] += quantity;
+        _whitelistClaimed[msg.sender] += quantity;
 
         _safeMint(msg.sender, quantity);
     }
-    
+
     /// @notice each address on the presale list may mint up to 3 tokens at the presale price
     function whitelistMint(bytes32[] calldata _merkleProof, uint quantity) external payable {
         require(isWhitelistSaleActive(), "PRESALE_INACTIVE");
         require(verifyWhitelist(_merkleProof, msg.sender), "PRESALE_NOT_VERIFIED");
         require(totalSupply() + quantity <= collectionSize, "EXCEEDS_COLLECTION_SIZE");
         require(_whitelistClaimed[msg.sender] + quantity <= whitelistLimit, "WHITELIST_TOKEN_LIMIT");
-        uint cost = quantity * whitelistPrice;
+        uint cost = quantity * Price;
         require(msg.value >= cost, "VALUE_TOO_LOW");
         _whitelistClaimed[msg.sender] += quantity;
 
@@ -264,7 +275,7 @@ contract TemplateNFT is ERC721A, AccessControl {
         require(quantity <= publicLimit, "PUBLIC_TOKEN_LIMIT");
         require(totalSupply() + quantity <= collectionSize, "EXCEEDS_COLLECTION_SIZE");
         uint cost;
-        cost = quantity * publicPrice;
+        cost = quantity * Price;
         require(msg.value >= cost, "VALUE_TOO_LOW");
 
         _safeMint(msg.sender, quantity);

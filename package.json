@@ -46,6 +46,8 @@
     "eslint-config-prettier": "^8.3.0",
     "ethereum-waffle": "^3.4.0",
     "hardhat": "^2.6.8",
+    "hardhat-gas-reporter": "^1.0.8",
+    "keccak256": "^1.0.6",
     "nuxt-vite": "^0.3.5",
     "prettier": "^2.3.2",
     "sass": "^1.43.4",
