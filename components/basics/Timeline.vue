@@ -29,7 +29,7 @@
 			<h5 class="font-flyingSausage sm:flex text-yellow text-8xl">
 				{{ item.title }}
 			</h5>
-			<h3 class="text-white whitespace-pre text-sm leading-6 font-spmono">
+			<h3 class="text-white mt-8 text-center text-sm leading-6 font-spmono">
 				{{ item.texts }}
 			</h3>
 		</div>
