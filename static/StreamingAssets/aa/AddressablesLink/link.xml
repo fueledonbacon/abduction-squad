@@ -35,6 +35,7 @@
     <type fullname="UnityEngine.TrailRenderer" preserve="all" />
     <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
     <type fullname="UnityEngine.LineRenderer" preserve="all" />
+    <type fullname="UnityEngine.FlareLayer" preserve="all" />
     <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
@@ -60,11 +61,11 @@
     <type fullname="UnityEngine.Animation" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.UI.Text" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.Text" preserve="all" />
+    <type fullname="UnityEngine.UI.Shadow" preserve="all" />
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
     <type fullname="UnityEngine.UI.Slider" preserve="all" />
-    <type fullname="UnityEngine.UI.Shadow" preserve="all" />
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
     <type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="all" />
     <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
@@ -80,6 +81,7 @@
     <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.EventSystems.EventTrigger" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.TouchInputModule" preserve="all" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
@@ -219,6 +221,27 @@
     <type fullname="Invector.vCharacterController.v2_5D.v2_5DShooterInput" preserve="all" />
     <type fullname="Invector.vCharacterController.vActions.vGenericAction" preserve="all" />
     <type fullname="Invector.vItemManager.vAmmoDisplay" preserve="all" />
+    <type fullname="MoreMountains.InfiniteRunnerEngine.UFOScenario" preserve="all" />
+    <type fullname="MoreMountains.InfiniteRunnerEngine.WaterSpeed" preserve="all" />
+    <type fullname="MoreMountains.InfiniteRunnerEngine.ButtonNavigation" preserve="all" />
+    <type fullname="MoreMountains.InfiniteRunnerEngine.UFOController" preserve="all" />
+    <type fullname="MoreMountains.InfiniteRunnerEngine.GameManager" preserve="all" />
+    <type fullname="MoreMountains.InfiniteRunnerEngine.CameraBehavior" preserve="all" />
+    <type fullname="MoreMountains.InfiniteRunnerEngine.OutOfBoundsRecycle" preserve="all" />
+    <type fullname="MoreMountains.InfiniteRunnerEngine.TouchZone" preserve="all" />
+    <type fullname="MoreMountains.InfiniteRunnerEngine.LevelManager" preserve="all" />
+    <type fullname="MoreMountains.InfiniteRunnerEngine.DistanceSpawner" preserve="all" />
+    <type fullname="MoreMountains.InfiniteRunnerEngine.InputManager" preserve="all" />
+    <type fullname="MoreMountains.InfiniteRunnerEngine.MovingObject" preserve="all" />
+    <type fullname="MoreMountains.InfiniteRunnerEngine.StartingPosition" preserve="all" />
+    <type fullname="MoreMountains.InfiniteRunnerEngine.SwipeZone" preserve="all" />
+    <type fullname="MoreMountains.InfiniteRunnerEngine.LevelSelector" preserve="all" />
+    <type fullname="SciFiArsenal.SciFiLightFade" preserve="all" />
+    <type fullname="MoreMountains.InfiniteRunnerEngine.AchievementRules" preserve="all" />
+    <type fullname="MoreMountains.InfiniteRunnerEngine.GUIManager" preserve="all" />
+    <type fullname="MoreMountains.InfiniteRunnerEngine.Parallax" preserve="all" />
+    <type fullname="MoreMountains.InfiniteRunnerEngine.KillsPlayerOnTouch" preserve="all" />
+    <type fullname="Bobber" preserve="all" />
     <type fullname="Invector.OnDead" preserve="nothing" serialized="true" />
     <type fullname="Invector.OnReceiveDamage" preserve="nothing" serialized="true" />
     <type fullname="Invector.Utils.vEventWithDelay/vEventWithDelayObject" preserve="nothing" serialized="true" />
@@ -302,8 +325,23 @@
   <assembly fullname="MoreMountains.Tools, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="MoreMountains.Tools.MMParallaxUI" preserve="all" />
     <type fullname="MoreMountains.Tools.MMFader" preserve="all" />
+    <type fullname="MoreMountains.Tools.MMProgressBar" preserve="all" />
+    <type fullname="MoreMountains.Tools.MMMultipleObjectPooler" preserve="all" />
+    <type fullname="MoreMountains.Tools.MMSoundManagerSettingsSO" preserve="all" />
+    <type fullname="MoreMountains.Tools.MMRigidbodyInterface" preserve="all" />
+    <type fullname="MoreMountains.Tools.MMTimedDestruction" preserve="all" />
+    <type fullname="MoreMountains.Tools.MMTriggerAndCollision" preserve="all" />
+    <type fullname="MoreMountains.Tools.FloatController" preserve="all" />
+    <type fullname="MoreMountains.Tools.TransformController" preserve="all" />
+    <type fullname="MoreMountains.Tools.MMPoolableObject" preserve="all" />
+    <type fullname="MoreMountains.Tools.MMFPSCounter" preserve="all" />
+    <type fullname="MoreMountains.Tools.MMAchievementDisplayItem" preserve="all" />
+    <type fullname="MoreMountains.Tools.MMSoundManager" preserve="all" />
     <type fullname="MoreMountains.Tools.MMParallaxUI/ParallaxLayer" preserve="nothing" serialized="true" />
     <type fullname="MoreMountains.Tools.MMTweenType" preserve="nothing" serialized="true" />
+    <type fullname="MoreMountains.Tools.MMMultipleObjectPoolerObject" preserve="nothing" serialized="true" />
+    <type fullname="MoreMountains.Tools.MMSoundManagerSettings" preserve="nothing" serialized="true" />
+    <type fullname="MoreMountains.Tools.SwipeEvent" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityPlayModeSaver, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Framework.Utils.UnityPlayModeSaverSceneUtils" preserve="all" />
@@ -348,23 +386,37 @@
     <type fullname="UnityEngine.ParticleSystem" preserve="all" />
     <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
   </assembly>
+  <assembly fullname="UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEditor.Audio.AudioMixerSnapshotController" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.ClothModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Cloth" preserve="all" />
+  </assembly>
   <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="TMPro.TMP_FontAsset" preserve="all" />
     <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
+    <type fullname="TMPro.TMP_FontAsset" preserve="all" />
+    <type fullname="TMPro.TextMeshPro" preserve="all" />
     <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
     <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_Glyph" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
   </assembly>
-  <assembly fullname="UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEditor.Audio.AudioMixerSnapshotController" preserve="all" />
+  <assembly fullname="MoreMountains.Tools.Feedbacks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="MoreMountains.Tools.MMAchievementDisplayer" preserve="all" />
   </assembly>
-  <assembly fullname="UnityEngine.ClothModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Cloth" preserve="all" />
+  <assembly fullname="MoreMountains.Feedbacks.MMTools, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="MoreMountains.Feedbacks.MMFeedbackMMSoundManagerSound" preserve="all" />
+    <type fullname="MoreMountains.Feedbacks.MMFeedbackMMSoundManagerSoundControl" preserve="all" />
+    <type fullname="MoreMountains.Feedbacks.MMFeedbackMMSoundManagerTrackControl" preserve="all" />
+    <type fullname="MoreMountains.Feedbacks.MMF_MMSoundManagerSound" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="MoreMountains.Feedbacks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="MoreMountains.Feedbacks.MMF_Player" preserve="all" />
+    <type fullname="MoreMountains.Feedbacks.MMFeedbackTiming" preserve="nothing" serialized="true" />
+    <type fullname="MoreMountains.Feedbacks.MMFeedbacksEvents" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.TextCoreModule">
     <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
