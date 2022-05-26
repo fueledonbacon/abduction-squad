@@ -178,6 +178,7 @@
     <type fullname="Michsky.UI.Shift.UIManagerImage" preserve="all" />
     <type fullname="Invector.vFootStepTrigger" preserve="all" />
     <type fullname="Michsky.UI.Shift.LayoutGroupPositionFix" preserve="all" />
+    <type fullname="SettingsHelperFunctions" preserve="all" />
     <type fullname="Invector.vItemManager.vAmmoManager" preserve="all" />
     <type fullname="Invector.vCharacterController.vThrowManager" preserve="all" />
     <type fullname="Invector.vItemManager.vEquipArea" preserve="all" />
@@ -237,11 +238,11 @@
     <type fullname="MoreMountains.InfiniteRunnerEngine.SwipeZone" preserve="all" />
     <type fullname="MoreMountains.InfiniteRunnerEngine.LevelSelector" preserve="all" />
     <type fullname="SciFiArsenal.SciFiLightFade" preserve="all" />
+    <type fullname="Bobber" preserve="all" />
     <type fullname="MoreMountains.InfiniteRunnerEngine.AchievementRules" preserve="all" />
     <type fullname="MoreMountains.InfiniteRunnerEngine.GUIManager" preserve="all" />
     <type fullname="MoreMountains.InfiniteRunnerEngine.Parallax" preserve="all" />
     <type fullname="MoreMountains.InfiniteRunnerEngine.KillsPlayerOnTouch" preserve="all" />
-    <type fullname="Bobber" preserve="all" />
     <type fullname="Invector.OnDead" preserve="nothing" serialized="true" />
     <type fullname="Invector.OnReceiveDamage" preserve="nothing" serialized="true" />
     <type fullname="Invector.Utils.vEventWithDelay/vEventWithDelayObject" preserve="nothing" serialized="true" />
