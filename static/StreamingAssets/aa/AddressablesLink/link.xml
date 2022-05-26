@@ -105,6 +105,7 @@
     <type fullname="Invector.vCharacterController.vOnDeadTrigger" preserve="all" />
     <type fullname="Invector.vItemManager.vChangeInputTypeTrigger" preserve="all" />
     <type fullname="Invector.vHealthItem" preserve="all" />
+    <type fullname="Michsky.UI.Shift.TimedEvent" preserve="all" />
     <type fullname="Invector.vGameController" preserve="all" />
     <type fullname="Invector.vEventSystems.vAnimatorTagAdvanced" preserve="all" />
     <type fullname="Invector.vCharacterController.AI.vSimpleMeleeAI_Controller" preserve="all" />
@@ -147,6 +148,7 @@
     <type fullname="Invector.vLookTarget" preserve="all" />
     <type fullname="Invector.Utils.vEventWithDelay" preserve="all" />
     <type fullname="GameManager" preserve="all" />
+    <type fullname="SettingsHelperFunctions" preserve="all" />
     <type fullname="Invector.vShooter.vLaserSight" preserve="all" />
     <type fullname="Invector.vShooter.vDecalManager" preserve="all" />
     <type fullname="Invector.vItemManager.vItem" preserve="all" />
@@ -170,7 +172,6 @@
     <type fullname="Invector.vItemManager.vMeleeEquipment" preserve="all" />
     <type fullname="Invector.vShooter.vImpactEffect" preserve="all" />
     <type fullname="Michsky.UI.Shift.UIManager" preserve="all" />
-    <type fullname="Michsky.UI.Shift.TimedEvent" preserve="all" />
     <type fullname="Michsky.UI.Shift.UIManagerText" preserve="all" />
     <type fullname="Michsky.UI.Shift.MainButton" preserve="all" />
     <type fullname="Michsky.UI.Shift.UIElementSound" preserve="all" />
@@ -178,7 +179,6 @@
     <type fullname="Michsky.UI.Shift.UIManagerImage" preserve="all" />
     <type fullname="Invector.vFootStepTrigger" preserve="all" />
     <type fullname="Michsky.UI.Shift.LayoutGroupPositionFix" preserve="all" />
-    <type fullname="SettingsHelperFunctions" preserve="all" />
     <type fullname="Invector.vItemManager.vAmmoManager" preserve="all" />
     <type fullname="Invector.vCharacterController.vThrowManager" preserve="all" />
     <type fullname="Invector.vItemManager.vEquipArea" preserve="all" />
