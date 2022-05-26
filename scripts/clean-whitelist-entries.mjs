@@ -4,7 +4,7 @@ const fp = fs.promises;
 import path from 'path';
 import {utils} from 'ethers';
 
-let whitelistDir = path.resolve('../assets/json/')
+let whitelistDir = path.resolve('./assets/json/')
 
 const getJSON = async (name) => {
     let result = await fp.readFile(name)
