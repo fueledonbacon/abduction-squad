@@ -115,7 +115,7 @@ export default {
 		var config = {
 			dataUrl: '/Build/webgl.data.gz',
 			frameworkUrl: '/Build/webgl.framework.js.gz',
-			codeUrl: '/Build/webgl.wasm',
+			codeUrl: '/Build/webgl.wasm.gz',
 			streamingAssetsUrl: '/StreamingAssets',
 			companyName: 'Fueled on Bacon',
 			productName: 'Abduction Squad Catalyst',
