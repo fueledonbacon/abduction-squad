@@ -113,8 +113,8 @@ export default {
 		// user.
 
 		var config = {
-			dataUrl: '/Build/webgl.data',
-			frameworkUrl: '/Build/webgl.framework.js',
+			dataUrl: '/Build/webgl.data.gz',
+			frameworkUrl: '/Build/webgl.framework.js.gz',
 			codeUrl: '/Build/webgl.wasm',
 			streamingAssetsUrl: '/StreamingAssets',
 			companyName: 'Fueled on Bacon',
