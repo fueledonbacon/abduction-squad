@@ -11,7 +11,7 @@ async function main() {
   console.log("Account balance:", (await deployer.getBalance()).toString());
 
   const Contract : ContractFactory = await ethers.getContractFactory("AbductionSquad");
-  const contractInstance : Contract = await Contract.deploy(...deployArgs);
+  const contractInstance : Contract = await Contract.deploy();
   console.log("Starting deploy")
   await contractInstance.deployed();
 

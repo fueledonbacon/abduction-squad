@@ -140,8 +140,9 @@ export default {
 			// Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 		}
 
-		window.addEventListener('load', () => {
+
 			// run after everything is in-place
+			console.log('magic');
 			try {
 				window
 					.createUnityInstance(this.$refs.unity, config, (progress) => {
@@ -160,7 +161,7 @@ export default {
 			} catch (err) {
 				console.log(err)
 			}
-		})
+
 	},
 	methods: {
 		setFullscreen() {
