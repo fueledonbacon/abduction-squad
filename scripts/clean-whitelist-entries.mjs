@@ -13,21 +13,28 @@ const getJSON = async (name) => {
     return result
 }
 
-const thelist = await getJSON(path.resolve(whitelistDir, 'sourceList.json'))
-let set = new Set()
+const thelist = await getJSON(path.resolve(whitelistDir, 'new-whitelist.json'))
+let goodApples = []
 let badApples = []
+let  j = 0
+let  i = 0
 for (const item of thelist){
-    try{
-        const address = utils.getAddress(item)
-        set.add(address)
-    } catch (e){
-        console.log(e)
-        badApples.push(item)
+    try {
+        
+        goodApples.push(utils.getAddress(item))
+        i++
+    } catch (error) {
+        console.log(error)
+        j++
     }
 }
+console.log('Total valid Addresses: '+goodApples.length);
+const newlist = [...new Set(goodApples)]
+console.log('Repeated Addresses: '+(goodApples.length-newlist.length));
 
-const newlist = Array.from(set)
-console.log('good apples ', newlist.length)
-console.log('bad apples ', badApples.length)
+
+
+console.log('good addresses ', newlist.length)
+console.log('bad addresses ', badApples.length)
 await fp.writeFile(path.resolve(whitelistDir, 'badaddress.json'), JSON.stringify(badApples), { encoding: 'utf8' })
 await fp.writeFile(path.resolve(whitelistDir, 'whitelist.json'), JSON.stringify(newlist), { encoding: 'utf8' })
