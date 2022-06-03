@@ -36,8 +36,8 @@ export default {
 		this.$nextTick(async () => {
 			const web3modal = this.$refs.web3modal
 			this.$wallet.Web3Modal = web3modal
-			// console.log(this.$wallet.Web3Modal)
-			await this.$wallet.init()
+			//Exclude /game from auto pop 
+			if(this.$route.name!='game') await this.$wallet.init()
 		})
 	},
 }

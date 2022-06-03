@@ -12,16 +12,12 @@ export default {
 
 	publicRuntimeConfig: {
 		smartContract: {
-			contractName: "ContractName",
-			name: "Contract Name",
-			symbol: "XYZ",
-			address: "0x...123",
-			collectionSize: 0,
-			mintPrice: 0.1,
-			chainId: 1,
-			hasWhitelist: false,
-			hasDelayedReveal: false,
-			abi: abi
+			contractName: "ABDUCTION SQUAD",
+			name: "ABDUCTION SQUAD",
+			symbol: "SQUAD",
+			address: process.env.CONTRACT_ADDRESS,
+			chainId: Number(process.env.CHAIN_ID),
+			abi
 		}
 	},	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
@@ -93,7 +89,7 @@ export default {
 	},
 
 	sitemap: {
-		hostname: 'https://abductionsquad.io',
+		hostname:  process.env.URL,
 		exclude: ['/admin/**'],
 		defaults: {
 			changefreq: 'daily',

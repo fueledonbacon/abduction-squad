@@ -63,6 +63,19 @@
 							success ? 'bg-green-400' : 'bg-orange-400'
 						} rounded-lg p-4`">
 						{{ message }}
+						<!-- GAME ALPHA LINK -->
+						<a class="
+				animate-pulse
+				font-poppins
+				text-sm
+				text-black
+				bg-yellow hover:bg-black hover:text-yellow
+				hover:shadow-md hover:shadow-yellow
+				border border-transparent rounded-sm 
+				inline-flex items-center h-12 px-8
+				mx-2
+				transition duration-150 ease-in-out
+				focus:outline-none " v-if="success" href="/game">GAME ACCESS</a>
 					</div>
 				</div>
 			</div>
