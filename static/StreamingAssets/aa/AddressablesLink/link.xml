@@ -27,13 +27,13 @@
     <type fullname="UnityEngine.LightingSettings" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.Cubemap" preserve="all" />
+    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
     <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
     <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
     <type fullname="UnityEngine.ReflectionProbe" preserve="all" />
     <type fullname="UnityEngine.LightProbes" preserve="all" />
     <type fullname="UnityEngine.RenderTexture" preserve="all" />
     <type fullname="UnityEngine.TrailRenderer" preserve="all" />
-    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
     <type fullname="UnityEngine.LineRenderer" preserve="all" />
     <type fullname="UnityEngine.FlareLayer" preserve="all" />
     <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
@@ -65,6 +65,7 @@
     <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
     <type fullname="UnityEngine.UI.Slider" preserve="all" />
     <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
     <type fullname="UnityEngine.EventSystems.EventTrigger" preserve="all" />
@@ -78,7 +79,6 @@
     <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
     <type fullname="UnityEngine.UI.Mask" preserve="all" />
     <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
-    <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.EventSystems.TouchInputModule" preserve="all" />
     <type fullname="UnityEngine.EventSystems.EventTrigger/Entry" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.EventSystems.EventTrigger/TriggerEvent" preserve="nothing" serialized="true" />
@@ -96,6 +96,7 @@
     <type fullname="UnityEngine.UI.Toggle/ToggleEvent" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Michsky.UI.Shift.ASInputFieldManager" preserve="all" />
     <type fullname="Michsky.UI.Shift.UIManager" preserve="all" />
     <type fullname="ASSettingsManager" preserve="all" />
     <type fullname="Michsky.UI.Shift.UIManagerText" preserve="all" />
@@ -106,12 +107,12 @@
     <type fullname="Michsky.UI.Shift.UIManagerImage" preserve="all" />
     <type fullname="Michsky.UI.Shift.SliderManager" preserve="all" />
     <type fullname="SettingsHelperFunctions" preserve="all" />
-    <type fullname="Michsky.UI.Shift.CustomInputField" preserve="all" />
     <type fullname="Michsky.UI.Shift.LayoutGroupPositionFix" preserve="all" />
     <type fullname="Michsky.UI.Shift.TimedEvent" preserve="all" />
     <type fullname="Invector.vCharacterController.vHUDController" preserve="all" />
     <type fullname="Invector.vSliderSizeControl" preserve="all" />
     <type fullname="AddressableSceneLoader" preserve="all" />
+    <type fullname="LeaderboardManager" preserve="all" />
     <type fullname="Invector.vCharacterController.vOnDeadTrigger" preserve="all" />
     <type fullname="Invector.vItemManager.vChangeInputTypeTrigger" preserve="all" />
     <type fullname="Invector.vHealthItem" preserve="all" />
@@ -139,7 +140,7 @@
     <type fullname="Invector.vAnimateUV" preserve="all" />
     <type fullname="Invector.vCharacterController.vActions.vTriggerGenericAction" preserve="all" />
     <type fullname="Invector.Utils.vComment" preserve="all" />
-    <type fullname="ASSimpleSingleSceneLoader" preserve="all" />
+    <type fullname="MoreMountains.InfiniteRunnerEngine.ASSimpleSingleSceneLoader" preserve="all" />
     <type fullname="Invector.vCharacterController.v_SpriteHealth" preserve="all" />
     <type fullname="SciFiArsenal.SciFiRotation" preserve="all" />
     <type fullname="Invector.vMelee.vMeleeManager" preserve="all" />
@@ -156,7 +157,6 @@
     <type fullname="Invector.vCharacterController.vDamageReceiver" preserve="all" />
     <type fullname="Invector.vLookTarget" preserve="all" />
     <type fullname="Invector.Utils.vEventWithDelay" preserve="all" />
-    <type fullname="GameManager" preserve="all" />
     <type fullname="Invector.vShooter.vLaserSight" preserve="all" />
     <type fullname="Invector.vShooter.vDecalManager" preserve="all" />
     <type fullname="Invector.vItemManager.vItem" preserve="all" />
@@ -248,6 +248,7 @@
     <type fullname="MoreMountains.InfiniteRunnerEngine.CharacterSelector" preserve="all" />
     <type fullname="MoreMountains.InfiniteRunnerEngine.HillRider" preserve="all" />
     <type fullname="MoreMountains.InfiniteRunnerEngine.CharacterSelectorManager" preserve="all" />
+    <type fullname="MoreMountains.InfiniteRunnerEngine.LeaderboardDisplayManager" preserve="all" />
     <type fullname="Invector.OnDead" preserve="nothing" serialized="true" />
     <type fullname="Invector.OnReceiveDamage" preserve="nothing" serialized="true" />
     <type fullname="Invector.Utils.vEventWithDelay/vEventWithDelayObject" preserve="nothing" serialized="true" />
