@@ -246,9 +246,9 @@
     <type fullname="MoreMountains.InfiniteRunnerEngine.Parallax" preserve="all" />
     <type fullname="MoreMountains.InfiniteRunnerEngine.KillsPlayerOnTouch" preserve="all" />
     <type fullname="MoreMountains.InfiniteRunnerEngine.CharacterSelector" preserve="all" />
+    <type fullname="MoreMountains.InfiniteRunnerEngine.LeaderboardDisplayManager" preserve="all" />
     <type fullname="MoreMountains.InfiniteRunnerEngine.HillRider" preserve="all" />
     <type fullname="MoreMountains.InfiniteRunnerEngine.CharacterSelectorManager" preserve="all" />
-    <type fullname="MoreMountains.InfiniteRunnerEngine.LeaderboardDisplayManager" preserve="all" />
     <type fullname="Invector.OnDead" preserve="nothing" serialized="true" />
     <type fullname="Invector.OnReceiveDamage" preserve="nothing" serialized="true" />
     <type fullname="Invector.Utils.vEventWithDelay/vEventWithDelayObject" preserve="nothing" serialized="true" />
